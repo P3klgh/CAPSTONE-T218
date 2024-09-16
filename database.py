@@ -5,6 +5,7 @@ import logging
 logging.basicConfig(level=logging.INFO)
 
 #db connection to azure server
+# This is bad security btw, will change in the future
 db_server_name = "capstone-t218-train-simulator.mysql.database.azure.com"
 db_username = "team218"
 db_password = "TrainSim1"
