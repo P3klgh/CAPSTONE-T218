@@ -1,4 +1,4 @@
-from database import *
+from Database.database import *
 databaseName = 'maindb'
 
 def addBattery(connection, batteryName, batteryMinCapacity, batteryMaxCapacity):
