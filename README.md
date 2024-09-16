@@ -5,4 +5,4 @@ Software requirement:
 pip install mysql-connector-python
 pip install pandas
 pip install numpy
-
+pip install matplotlib
