@@ -39,3 +39,4 @@ def access_credentials(get_credentials_func):
 # Usage
 # get_credentials_func = secure_input()  # Store the function that accesses the credentials
 # access_credentials(get_credentials_func)  # Access and use the credentials securely
+
