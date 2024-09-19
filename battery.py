@@ -1,4 +1,4 @@
-from database import *
+from .src.Database.database import *
 import logging
 logging.basicConfig(level=logging.INFO)
 
