@@ -1,0 +1,3759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+<Document id="HBTSugarLineLucindaCurveRadii">
+  <name>HBTSugarLineLucindaCurveRadii</name>
+  <snippet></snippet>
+  <description><![CDATA[]]></description>
+  <Folder id="FeatureLayer0">
+    <name>HBTSugarLineLucindaCurveRadii</name>
+    <snippet></snippet>
+    <description><![CDATA[]]></description>
+    <Placemark id="ID_00000">
+      <name>{642E5524-AD6F-4E50-A307-1151B9C933EE}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{642E5524-AD6F-4E50-A307-1151B9C933EE}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>14.120237</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>424</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{642E5524-AD6F-4E50-A307-1151B9C933EE}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>5_7_424</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>422208.109144</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7940590.0086</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>409.953834</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>422492.0651</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7940294.3171</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>422481.7129</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7940284.7152</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.2651215511054,-18.62699856499449,0 146.2651454653279,-18.62697813107214,0 146.2651705263204,-18.62695634909658,0 146.2651953874298,-18.62693435893438,0 146.265220046337,-18.62691216167973,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00001">
+      <name>{381F04AF-35EB-44EA-891D-6E69549121D3}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{381F04AF-35EB-44EA-891D-6E69549121D3}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>23.253373</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>426</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{381F04AF-35EB-44EA-891D-6E69549121D3}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>13_15_426</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>421930.709293</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7940688.19611</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>715.785887</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>422638.408</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7940580.9884</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>422634.574</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7940558.0543</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.2665811122791,-18.62453396260403,0 146.2665889319917,-18.62449385406958,0 146.2665993134569,-18.62443827810359,0 146.2666091872843,-18.62438261686604,0 146.2666185511365,-18.6243268758639,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00002">
+      <name>{381F04AF-35EB-44EA-891D-6E69549121D3}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{381F04AF-35EB-44EA-891D-6E69549121D3}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>2</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>22.024788</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>426</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{381F04AF-35EB-44EA-891D-6E69549121D3}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>27_29_426</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>421889.366976</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7940776.0969</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>782.963526</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>422601.0598</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7940449.7004</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>422591.5893</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7940429.8164</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.2661687869154,-18.62569132917449,0 146.2661752286982,-18.62567897302966,0 146.2662037462153,-18.62562352905606,0 146.2662317526639,-18.62556785196284,0 146.2662592503446,-18.6255119450688,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00003">
+      <name>{05CC993D-E005-4FEB-BE0A-BFD8DAEAFD71}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{05CC993D-E005-4FEB-BE0A-BFD8DAEAFD71}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>3</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>25.439896</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>503</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{05CC993D-E005-4FEB-BE0A-BFD8DAEAFD71}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>18_20_503</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>423420.700196</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7942069.88714</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>583.117754</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>422912.819</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7942356.3979</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>422900.8065</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7942333.9747</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.2691735027192,-18.60849426011862,0 146.2691956934105,-18.6084534624758,0 146.2692182704402,-18.60841282574264,0 146.2692412203892,-18.60837237634388,0 146.2692645409196,-18.60833211978634,0 146.2692882268151,-18.60829205825607,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00004">
+      <name>{05CC993D-E005-4FEB-BE0A-BFD8DAEAFD71}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{05CC993D-E005-4FEB-BE0A-BFD8DAEAFD71}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>4</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>35.157796</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>503</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{05CC993D-E005-4FEB-BE0A-BFD8DAEAFD71}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>26_32_503</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>422940.79629</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7942103.98107</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>128.949127</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>422821.2848</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7942152.4032</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>422812.6442</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7942118.4338</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.2683296376503,-18.61043892539391,0 146.2683299420483,-18.61043646863151,0 146.2683312498718,-18.61042637550803,0 146.268332648479,-18.61041629321776,0 146.2683341413316,-18.61040622398057,0 146.2683357238085,-18.61039616612368,0 146.2683374011022,-18.61038612297688,0 146.2683391668488,-18.61037609451545,0 146.2683410279979,-18.61036607911159,0 146.2683429775835,-18.61035608225425,0 146.2683450202502,-18.61034610010025,0 146.268347154246,-18.610336136504,0 146.2683493784138,-18.61032619146101,0 146.2683516956557,-18.61031626277613,0 146.2683541024768,-18.61030635595181,0 146.2683565994605,-18.61029646988714,0 146.2683591860329,-18.61028660347663,0 146.2683618650749,-18.6102767594895,0 146.2683646331176,-18.6102669373607,0 146.2683674901515,-18.61025713929655,0 146.2683704361768,-18.61024736529708,0 146.2683734729241,-18.6102376164722,0 146.2683765986556,-18.61022789336678,0 146.2683798139498,-18.61021819598304,0 146.2683831158999,-18.61020852761931,0 146.2683865085673,-18.61019888553334,0 146.2683899867335,-18.61018927246289,0 146.2683935556053,-18.61017968842815,0 146.2683972099758,-18.61017013340891,0 146.268400952726,-18.61016061017438,0 146.2684047809608,-18.61015111926489,0 146.2684086964205,-18.61014165958398,0 146.2684127008335,-18.6101322327932,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00005">
+      <name>{92E0F648-83DC-421B-B435-C806BA81EFE7}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{92E0F648-83DC-421B-B435-C806BA81EFE7}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>5</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>42.273147</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>522</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{92E0F648-83DC-421B-B435-C806BA81EFE7}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>2_12_522</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>0.999999</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>416275.035371</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7937669.6491</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>96.252046</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>416207.2016</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7937601.3652</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>416242.7023</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7937579.0804</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.20586547065,-18.65121026145278,0 146.2058630152708,-18.65120941044717,0 146.2058555470885,-18.65120677591454,0 146.2058481040811,-18.65120407860619,0 146.2058406856622,-18.65120132017444,0 146.2058332924233,-18.65119849786383,0 146.2058259260774,-18.65119561664592,0 146.2058185843226,-18.65119267375304,0 146.2058112712171,-18.65118966754756,0 146.2058039855756,-18.651186604092,0 146.2057967297332,-18.65118347898348,0 146.2057895013751,-18.65118029221224,0 146.205782301646,-18.65117704654106,0 146.2057751340228,-18.65117374088147,0 146.2057679956073,-18.6511703763244,0 146.2057608875617,-18.65116695177159,0 146.2057538121983,-18.6511634677844,0 146.2057467689306,-18.65115992601516,0 146.2057397583374,-18.6511563264663,0 146.2057327804236,-18.65115266803465,0 146.2057258369228,-18.65114895127914,0 146.2057189278324,-18.65114517675138,0 146.2057120531499,-18.65114134500293,0 146.205705214606,-18.65113745714431,0 146.2056984104725,-18.65113351151344,0 146.2056916424751,-18.65112951032398,0 146.2056849129388,-18.6511254513794,0 146.205678221848,-18.6511213379892,0 146.2056715663147,-18.65111716903797,0 146.2056649492347,-18.65111294398638,0 146.2056583723338,-18.65110866504812,0 146.2056518338759,-18.65110433221582,0 146.2056453350286,-18.65109994328807,0 146.2056388786673,-18.65109550213818,0 146.2056324619064,-18.65109100709917,0 146.2056260870631,-18.65108645762924,0 146.2056197529671,-18.65108185648145,0 146.2056134619384,-18.65107720256238,0 146.2056072133956,-18.65107249642118,0 146.2056010084935,-18.65106773861437,0 146.2055948472373,-18.65106292803873,0 146.2055887301851,-18.65105806910942,0 146.2055826585122,-18.65105315797024,0 146.2055766310534,-18.65104819627105,0 146.2055706489662,-18.65104318401675,0 146.2055647151336,-18.65103812342591,0 146.2055588266726,-18.65103301227998,0 146.2055529853011,-18.65102785444735,0 146.2055471904585,-18.65102264606453,0 146.2055414450201,-18.65101739100482,0 146.2055357466712,-18.65101208925846,0 146.2055300965872,-18.65100673696924,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00006">
+      <name>{DDC67296-D77D-44E3-933E-5F54B18589C5}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{DDC67296-D77D-44E3-933E-5F54B18589C5}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>6</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>33.383489</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>541</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{DDC67296-D77D-44E3-933E-5F54B18589C5}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>33_38_541</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>423801.831748</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7943054.44682</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>230.536758</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>423639.2745</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7943217.9491</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>423664.6041</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7943239.6488</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.276447497441,-18.60033705880966,0 146.2764383901611,-18.60034347319333,0 146.2764231335105,-18.60035437884249,0 146.2764079752536,-18.600365409531,0 146.2763929200186,-18.60037656527665,0 146.2763779649034,-18.60038784827474,0 146.2763631174472,-18.6003992541414,0 146.2763483718697,-18.60041078175126,0 146.2763337339489,-18.60042243278135,0 146.2763192013706,-18.6004342072228,0 146.2763047787886,-18.60044609902586,0 146.2762904667696,-18.60045811095075,0 146.276276263002,-18.60047024243702,0 146.2762621721184,-18.60048249239926,0 146.2762481923972,-18.60049485752127,0 146.2762343278881,-18.60050733781865,0 146.276220576846,-18.60051993549111,0 146.2762069427607,-18.60053264613925,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00007">
+      <name>{DDC67296-D77D-44E3-933E-5F54B18589C5}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{DDC67296-D77D-44E3-933E-5F54B18589C5}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>7</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>53.540287</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>541</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{DDC67296-D77D-44E3-933E-5F54B18589C5}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>40_49_541</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>423780.925078</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7943082.50899</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>195.626127</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>423679.1885</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7943249.5915</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>423728.1269</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7943270.8985</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.2770510110666,-18.60005740261517,0 146.2770453637845,-18.60005889730468,0 146.2770297975957,-18.60006311195239,0 146.2770142730843,-18.60006745748913,0 146.276998787948,-18.60007193114802,0 146.2769833433414,-18.60007653348513,0 146.2769679421568,-18.60008126451156,0 146.2769525843966,-18.60008612367572,0 146.2769372729602,-18.60009110933393,0 146.276922006679,-18.60009622423976,0 146.2769067890448,-18.60010146344215,0 146.2768916183035,-18.60010683134724,0 146.2768764985209,-18.60011232410939,0 146.2768614291183,-18.60011794172641,0 146.2768464106649,-18.60012368640692,0 146.2768314460719,-18.60012955374925,0 146.2768165364775,-18.60013554817062,0 146.2768016807504,-18.60014166359906,0 146.2767868835021,-18.60014790391351,0 146.2767721430111,-18.60015426579774,0 146.2767574621629,-18.60016075091767,0 146.2767428398028,-18.60016735871726,0 146.2767282794134,-18.60017408645188,0 146.2767137809806,-18.60018093743112,0 146.2766993451063,-18.60018790614124,0 146.2766849746689,-18.60019499590294,0 146.2766706679398,-18.60020220505478,0 146.2766564295517,-18.60020953251137,0 146.2766422583452,-18.60021697881987,0 146.2766281549082,-18.60022454177613,0 146.2766141215429,-18.60023222414701,0 146.2766001594295,-18.60024002042104,0 146.2765862685588,-18.6002479328046,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00008">
+      <name>{DDC67296-D77D-44E3-933E-5F54B18589C5}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{DDC67296-D77D-44E3-933E-5F54B18589C5}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>8</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>189.799215</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>541</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{DDC67296-D77D-44E3-933E-5F54B18589C5}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>94_125_541</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>0.999999</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>0.999999</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>424357.040857</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7943476.17155</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>160.608985</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>424352.4018</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7943315.7553</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>424503.6554</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7943411.0566</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.2844083327044,-18.5988192990565,0 146.2844060453736,-18.59882413291512,0 146.2844005096318,-18.59883564706732,0 146.2843948653268,-18.59884711447208,0 146.2843891194051,-18.59885853405252,0 146.2843832678149,-18.59886990634489,0 146.2843773117223,-18.59888122914718,0 146.284371253446,-18.59889250136495,0 146.2843650912528,-18.59890372244002,0 146.2843588268781,-18.59891489237898,0 146.2843524626428,-18.59892600953579,0 146.284345993919,-18.59893707389288,0 146.2843394253414,-18.59894808381303,0 146.2843327557531,-18.59895903929184,0 146.2843259868988,-18.59896993812948,0 146.2843191187852,-18.59898077867115,0 146.2843121513965,-18.59899156477805,0 146.2843050847578,-18.59900229038258,0 146.2842979206,-18.5990129565945,0 146.2842906594969,-18.59902356451923,0 146.2842833020433,-18.59903411029774,0 146.2842758482367,-18.59904459448164,0 146.2842682980796,-18.59905501651929,0 146.2842606533118,-18.59906537531413,0 146.2842529122003,-18.59907567030791,0 146.2842450799585,-18.59908589986563,0 146.2842371519583,-18.59909606396969,0 146.2842291328253,-18.59910616318925,0 146.2842210214234,-18.59911619255556,0 146.2842128188957,-18.59912615538255,0 146.2842045240897,-18.59913605056264,0 146.2841961404834,-18.5991458764542,0 146.2841876657744,-18.59915563029045,0 146.2841791028434,-18.59916531484035,0 146.2841704528614,-18.59917492679871,0 146.2841617135076,-18.59918446781152,0 146.284152887688,-18.59919393458016,0 146.2841439754027,-18.59920332710462,0 146.2841349772257,-18.5992126464903,0 146.2841258949039,-18.59922188998576,0 146.2841167290182,-18.59923105704163,0 146.2841074784091,-18.59924014820509,0 146.2840981442453,-18.59924916072251,0 146.2840887294077,-18.5992580973629,0 146.2840792315984,-18.59926695425623,0 146.2840696537098,-18.59927573141351,0 146.2840599974799,-18.59928442828973,0 146.2840502611685,-18.59929304598145,0 146.284040445944,-18.59930158173508,0 146.2840305518135,-18.59931003389583,0 146.2840205816533,-18.59931840633585,0 146.2840105360648,-18.59932669354135,0 146.2840004150482,-18.59933489551235,0 146.2839902185895,-18.59934301555837,0 146.2839799467095,-18.59935104871506,0 146.2839696034416,-18.59935899885898,0 146.2839591882326,-18.59936685992033,0 146.2839487010756,-18.59937463355392,0 146.2839381425445,-18.59938232086511,0 146.2839275143795,-18.59938992075729,0 146.2839168183227,-18.59939743158227,0 146.283906052065,-18.59940485222802,0 146.2838952184942,-18.59941218380876,0 146.2838843181957,-18.59941942467186,0 146.2838733546405,-18.5994265748305,0 146.2838623226267,-18.59943363316169,0 146.2838512291009,-18.59944059858861,0 146.2838400711684,-18.59944747165186,0 146.2838288505646,-18.59945425235803,0 146.2838175684465,-18.5994609407115,0 146.2838062236733,-18.59946753284669,0 146.283794820866,-18.59947403043595,0 146.2837833600201,-18.5994804345825,0 146.2837718399923,-18.59948674197231,0 146.2837602625136,-18.5994929537152,0 146.2837486281694,-18.59949906815854,0 146.2837369386928,-18.59950508586053,0 146.2837251952455,-18.59951100572238,0 146.2837133972467,-18.59951682829345,0 146.283701548172,-18.59952255248374,0 146.2836896451313,-18.59952817773065,0 146.2836776904431,-18.59953370293979,0 146.283665687576,-18.59953912867593,0 146.2836536353663,-18.59954445658944,0 146.28364153268,-18.59954968115997,0 146.2836293852859,-18.59955480627067,0 146.2836171903008,-18.59955982970416,0 146.2836049506217,-18.59956475036821,0 146.2835926656588,-18.59956957101864,0 146.2835803354234,-18.59957428889742,0 146.2835679662814,-18.59957890347716,0 146.2835555518694,-18.59958341473364,0 146.2835430979792,-18.59958782103407,0 146.2835306051756,-18.59959212569024,0 146.2835180723129,-18.59959632593975,0 146.2835055005438,-18.59960042289017,0 146.2834928933552,-18.59960441269352,0 146.2834802501596,-18.59960829755401,0 146.283467571526,-18.59961207968017,0 146.2834548592156,-18.59961575301109,0 146.2834421108911,-18.59961932305389,0 146.2834293335085,-18.5996227865254,0 146.283416523606,-18.59962614120602,0 146.2834036846383,-18.59962939097013,0 146.2833908148771,-18.59963253415633,0 146.283377919538,-18.59963556857804,0 146.2833649945622,-18.59963849642622,0 146.2833520428424,-18.59964131771189,0 146.2833390672825,-18.59964402968804,0 146.2833260672971,-18.59964663400729,0 146.2833130434694,-18.59964912956863,0 146.283299997528,-18.59965151803341,0 146.2832869306436,-18.59965379609651,0 146.2832738416502,-18.59965596595986,0 146.2832607340186,-18.59965802763669,0 146.2832476100675,-18.59965998003262,0 146.2832344657498,-18.5996618225806,0 146.2832213068458,-18.59966355640586,0 146.2832081327817,-18.59966518040301,0 146.2831949441406,-18.59966669347104,0 146.2831817409109,-18.59966809836792,0 146.2831685265799,-18.59966939124571,0 146.2831552999767,-18.59967057540957,0 146.2831420639938,-18.5996716508705,0 146.283128818645,-18.59967261431893,0 146.2831155644997,-18.59967346796343,0 146.2831023032887,-18.59967421291381,0 146.2830890350282,-18.5996748453089,0 146.2830757614422,-18.59967536791326,0 146.2830624848471,-18.59967578018413,0 146.2830492046642,-18.59967608211928,0 146.2830359209005,-18.59967627206396,0 146.2830226381703,-18.59967635334533,0 146.2830093535949,-18.59967632264281,0 146.2829960694744,-18.59967618327477,0 146.2829827881344,-18.59967593249207,0 146.2829695107295,-18.59967557085071,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00009">
+      <name>{DDC67296-D77D-44E3-933E-5F54B18589C5}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{DDC67296-D77D-44E3-933E-5F54B18589C5}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>39.117235</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>541</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{DDC67296-D77D-44E3-933E-5F54B18589C5}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>127_134_541</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>424348.83383</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7943477.52351</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>168.627923</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>424507.4638</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7943420.4537</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>424516.3904</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7943458.445</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.2845291145361,-18.59839079439809,0 146.2845281441037,-18.59839848175211,0 146.2845263812719,-18.59841167498374,0 146.2845244947101,-18.59842485174887,0 146.2845224913533,-18.59843801372864,0 146.2845203642757,-18.59845115703553,0 146.2845181204192,-18.59846428169586,0 146.2845157545773,-18.59847738768989,0 146.2845132696471,-18.59849047392538,0 146.2845106638977,-18.59850353929253,0 146.2845079384906,-18.59851658269259,0 146.2845050957467,-18.59852960247949,0 146.2845021316188,-18.59854259808625,0 146.2844990501632,-18.59855556787351,0 146.2844958508015,-18.59856851183899,0 146.2844925306412,-18.59858142997177,0 146.2844890931669,-18.59859431897538,0 146.2844855401165,-18.59860717830486,0 146.2844818680166,-18.59862000849859,0 146.2844780780335,-18.59863280735455,0 146.2844741713287,-18.59864557377398,0 146.2844701484853,-18.59865830665584,0 146.284466008344,-18.59867100654734,0 146.2844617532256,-18.59868367180245,0 146.28445738198,-18.59869630076198,0 146.2844528957665,-18.59870889287875,0 146.2844482934282,-18.59872144814833,0 146.2844435761357,-18.59873396326551,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00010">
+      <name>{CC298E8E-8A2B-4C44-9FB3-9D3035929832}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{CC298E8E-8A2B-4C44-9FB3-9D3035929832}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>10</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>20.647378</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>556</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{CC298E8E-8A2B-4C44-9FB3-9D3035929832}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>2_4_556</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>425718.797541</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7945239.52292</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>1140.687929</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>424754.4324</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7945848.7318</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>424765.6007</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7945866.0976</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.2869817856887,-18.57664091252316,0 146.2869779206587,-18.57664647796903,0 146.2869261842604,-18.57672170416403,0 146.2868751401483,-18.57679735769833,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00011">
+      <name>{CC298E8E-8A2B-4C44-9FB3-9D3035929832}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{CC298E8E-8A2B-4C44-9FB3-9D3035929832}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>11</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>16.67283</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>556</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{CC298E8E-8A2B-4C44-9FB3-9D3035929832}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>23_25_556</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>424439.438737</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7946260.68966</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>494.328689</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>424892.1934</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7946062.2671</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>424898.6344</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7946077.6448</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.2882503628716,-18.57473379733639,0 146.2882370147124,-18.57476502421071,0 146.2882212782008,-18.57480100464933,0 146.2882052102137,-18.57483685420755,0 146.2881888148202,-18.57487256793613,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00012">
+      <name>{CC298E8E-8A2B-4C44-9FB3-9D3035929832}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{CC298E8E-8A2B-4C44-9FB3-9D3035929832}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>12</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>22.494694</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>556</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{CC298E8E-8A2B-4C44-9FB3-9D3035929832}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>30_32_556</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>424481.208584</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7946236.02287</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>446.284749</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>424909.8809</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7946111.878</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>424915.5961</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7946133.6324</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.2884131837859,-18.57422842379015,0 146.288406409772,-18.57425495923901,0 146.288397401632,-18.57428909127139,0 146.2883880791458,-18.57432314709843,0 146.2883784481066,-18.57435712453555,0 146.288368506788,-18.57439102136972,0 146.2883582528924,-18.57442483373098,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00013">
+      <name>{CC298E8E-8A2B-4C44-9FB3-9D3035929832}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{CC298E8E-8A2B-4C44-9FB3-9D3035929832}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>13</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>23.884273</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>556</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{CC298E8E-8A2B-4C44-9FB3-9D3035929832}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>42_46_556</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>424642.547781</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7946220.63864</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>283.768993</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>424925.6148</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7946200.8158</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>424926.2922</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7946224.6833</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.2885179851714,-18.57340595855671,0 146.2885180976737,-18.57342039179401,0 146.2885181054902,-18.57344277219873,0 146.288517906814,-18.57346515237607,0 146.2885175045552,-18.57348752792413,0 146.2885168963934,-18.57350990048902,0 146.2885160852319,-18.57353226732362,0 146.2885150693469,-18.57355462566339,0 146.2885138493122,-18.57357697661369,0 146.2885124222629,-18.57359931354445,0 146.2885107922366,-18.57362163922892,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00014">
+      <name>{3C02F8E7-D324-4A11-B130-C5AC8DC4D325}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{3C02F8E7-D324-4A11-B130-C5AC8DC4D325}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>14</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>149.317457</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>557</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{3C02F8E7-D324-4A11-B130-C5AC8DC4D325}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>2_34_557</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>0.999994</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>0.999993</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>425019.231164</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7946461.12933</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>100.631526</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>424918.7886</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7946466.2526</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>425015.611</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7946561.5765</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.2893770360291,-18.57036343354422,0 146.2893767705097,-18.57036344136969,0 146.289368454755,-18.5703637338371,0 146.2893601404523,-18.57036409470896,0 146.28935183165,-18.57036452400057,0 146.2893435260326,-18.57036502225479,0 146.2893352259066,-18.57036559113513,0 146.2893269295529,-18.57036622677387,0 146.2893186404257,-18.57036693304527,0 146.289310358532,-18.57036770829454,0 146.289302083874,-18.57036855197007,0 146.2892938181801,-18.57036946573321,0 146.2892855585696,-18.57037044681507,0 146.2892773096629,-18.57037149688787,0 146.2892690714623,-18.57037261540001,0 146.2892608428087,-18.57037380289874,0 146.2892526254395,-18.57037505883901,0 146.2892444205115,-18.57037638322514,0 146.2892362268724,-18.57037777494963,0 146.2892280485642,-18.57037923568249,0 146.2892198809644,-18.5703807643031,0 146.2892117304351,-18.57038236083545,0 146.2892035923561,-18.57038402360728,0 146.2891954713431,-18.57038575539406,0 146.2891873650848,-18.57038755563545,0 146.2891792776346,-18.57038942324352,0 146.2891712055335,-18.57039135544717,0 146.289163153388,-18.57039335722827,0 146.2891551183199,-18.57039542526632,0 146.2891471032189,-18.57039756012379,0 146.2891391075111,-18.57039976069534,0 146.2891311323419,-18.57040202974332,0 146.2891231794671,-18.57040436230986,0 146.2891152465524,-18.57040676335065,0 146.289107337082,-18.57040922956918,0 146.2890994493184,-18.5704117615105,0 146.2890915867364,-18.57041435808451,0 146.2890837458567,-18.5704170214845,0 146.2890759318892,-18.57041975062693,0 146.2890681419535,-18.57042254274288,0 146.2890603777755,-18.57042540004531,0 146.2890526405121,-18.57042832253856,0 146.2890449295918,-18.57043130856567,0 146.289037246745,-18.57043435923638,0 146.2890295919742,-18.57043747399909,0 146.2890219670189,-18.57044065175715,0 146.2890143701442,-18.57044389250402,0 146.2890068036589,-18.57044719735162,0 146.2889992675744,-18.57045056354195,0 146.2889917630408,-18.57045399273419,0 146.288984290634,-18.57045748548211,0 146.2889768497895,-18.57046103847393,0 146.2889694410741,-18.57046465446986,0 146.2889620668084,-18.5704683318238,0 146.2889547258331,-18.570472071083,0 146.2889474187359,-18.57047587004324,0 146.2889401472451,-18.57047973036587,0 146.2889329119436,-18.57048365094989,0 146.2889257122554,-18.57048763124148,0 146.2889185499087,-18.57049167290203,0 146.2889114237604,-18.57049577261756,0 146.2889043372741,-18.57049993205597,0 146.2888972858294,-18.57050414954502,0 146.2888902763695,-18.57050842455928,0 146.288883304834,-18.57051275984146,0 146.288876374131,-18.57051715154132,0 146.2888694836706,-18.57052160241465,0 146.2888626340403,-18.57052611025723,0 146.2888558240903,-18.57053067340993,0 146.2888490595976,-18.57053529354933,0 146.2888423347828,-18.57053996955046,0 146.2888356548424,-18.57054470363932,0 146.2888290169094,-18.57054948973745,0 146.2888224238554,-18.57055433282012,0 146.2888158756916,-18.57055923012934,0 146.2888093712614,-18.5705641816608,0 146.2888029140351,-18.57056918742752,0 146.2887965022753,-18.5705742479746,0 146.2887901354217,-18.57057935888707,0 146.2887838180834,-18.57058452459518,0 146.2887775473797,-18.57058974233001,0 146.2887713238913,-18.57059501154216,0 146.2887651499295,-18.57060033279195,0 146.2887590249182,-18.57060570552563,0 146.2887529488621,-18.57061112863997,0 146.2887469234961,-18.57061660214154,0 146.2887409470876,-18.57062212547221,0 146.2887350219476,-18.57062769919228,0 146.2887291480901,-18.57063331999219,0 146.2887233249205,-18.57063899173091,0 146.2887175547685,-18.57064471055603,0 146.2887118370556,-18.57065047646535,0 146.2887061723512,-18.57065629166745,0 146.2887005629848,-18.57066215230987,0 146.2886950037462,-18.57066805947619,0 146.2886895021569,-18.57067401264315,0 146.2886840524284,-18.57068001289215,0 146.2886786597799,-18.57068605693324,0 146.2886733224695,-18.57069214641466,0 146.2886680410846,-18.57069827913224,0 146.2886628144661,-18.57070445563315,0 146.2886576449301,-18.57071067537458,0 146.2886525342092,-18.57071693891467,0 146.2886474794254,-18.57072324293291,0 146.2886424834613,-18.57072958964659,0 146.2886375463171,-18.57073597905575,0 146.2886326656928,-18.57074240784206,0 146.288627845635,-18.57074887657238,0 146.2886230843993,-18.5707553874466,0 146.2886183831654,-18.57076193495307,0 146.2886137430717,-18.57076852350894,0 146.2886091629777,-18.57077514924869,0 146.2886046411456,-18.57078181271735,0 146.2886001822027,-18.5707885139324,0 146.2885957855729,-18.57079525234004,0 146.2885914512607,-18.5708020268371,0 146.2885871775311,-18.57080883741702,0 146.2885829661237,-18.57081568298315,0 146.2885788193545,-18.57082256299264,0 146.2885747349098,-18.57082947743674,0 146.288570712209,-18.57083642686491,0 146.2885667547407,-18.57084340687742,0 146.2885628607538,-18.57085042132893,0 146.2885590314165,-18.57085746746582,0 146.2885552667265,-18.57086454583969,0 146.2885515678452,-18.5708716553517,0 146.2885479330466,-18.57087879378892,0 146.2885443628998,-18.57088596335993,0 146.2885408608753,-18.57089316407782,0 146.2885374229496,-18.57090038985974,0 146.2885340514086,-18.57090764733361,0 146.2885307462799,-18.57091492988024,0 146.2885275092827,-18.57092224136736,0 146.2885243381148,-18.57092957902827,0 146.2885212350874,-18.5709369434233,0 146.2885181984748,-18.5709443323395,0 146.2885152300027,-18.57095174798982,0 146.2885123296896,-18.57095918596147,0 146.288509497524,-18.57096664901245,0 146.2885067335174,-18.57097413438476,0 146.288504039398,-18.57098164373976,0 146.2885014134422,-18.5709891743129,0 146.2884988556431,-18.57099672775899,0 146.2884963660144,-18.57100430076843,0 146.2884939486027,-18.57101189390809,0 146.2884915987807,-18.57101950716055,0 146.2884893194382,-18.57102714108828,0 146.2884871100082,-18.57103479293113,0 146.2884849704884,-18.57104246324069,0 146.288482900888,-18.57105014981057,0 146.2884809035183,-18.5710578532011,0 146.288478974326,-18.57106557450021,0 146.2884771173713,-18.57107331096518,0 146.2884753297644,-18.57108106203351,0 146.2884736149758,-18.57108882771827,0 146.2884719712681,-18.57109660856453,0 146.2884703980742,-18.57110440181211,0 146.2884688953896,-18.57111220856423,0 146.2884674661177,-18.57112002607378,0 146.2884661067814,-18.57112785598248,0 146.2884648197032,-18.57113569609268,0 146.2884636042958,-18.57114354860856,0 146.2884624611581,-18.57115140856794,0 146.2884613896957,-18.57115927982981,0 146.288460390503,-18.57116715853518,0 146.2884594629993,-18.57117504523346,0 146.288458609496,-18.57118294048497,0 146.2884578265318,-18.57119084207025,0 146.2884571152682,-18.57119874889045,0 146.288456477438,-18.57120666150371,0 146.2884559124628,-18.57121457990785,0 146.2884554186143,-18.57122250244155,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00015">
+      <name>{3C02F8E7-D324-4A11-B130-C5AC8DC4D325}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{3C02F8E7-D324-4A11-B130-C5AC8DC4D325}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>15</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>119.894677</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>557</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{3C02F8E7-D324-4A11-B130-C5AC8DC4D325}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>90_113_557</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>0.999982</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>0.999981</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>425909.153223</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7946692.78825</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>106.401552</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>425880.2359</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7946589.0326</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>425989.1208</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7946623.245</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.2986077628937,-18.56984424385114,0 146.298607045378,-18.56984502391621,0 146.2986012108078,-18.56985130490457,0 146.2985953174462,-18.56985753547774,0 146.2985893670171,-18.56986371840017,0 146.2985833606909,-18.56986985036654,0 146.298577299037,-18.56987593358542,0 146.2985711809142,-18.56988196419129,0 146.2985650080489,-18.569887944397,0 146.2985587804455,-18.56989387309935,0 146.2985525004131,-18.56989975141009,0 146.2985461650777,-18.56990557490574,0 146.2985397790552,-18.56991134636146,0 146.298533337723,-18.56991706465683,0 146.2985268462912,-18.56992272870801,0 146.2985203012893,-18.56992833850208,0 146.2985137056094,-18.56993389404982,0 146.2985070609888,-18.56993939480605,0 146.2985003651209,-18.56994483910735,0 146.2984936208952,-18.56995022751609,0 146.298486827155,-18.56995556002796,0 146.2984799839027,-18.56996083609135,0 146.2984730923016,-18.56996605405578,0 146.2984661552438,-18.56997121393195,0 146.2984591692522,-18.5699763173618,0 146.2984521378084,-18.5699813616002,0 146.2984450609011,-18.56998634940515,0 146.2984379373962,-18.56999127525635,0 146.2984307701675,-18.56999614357733,0 146.2984235580763,-18.57000094995102,0 146.2984163022635,-18.57000569824289,0 146.2984090033281,-18.57001038349069,0 146.2984016624085,-18.57001501011152,0 146.2983942789355,-18.57001957589681,0 146.2983868535011,-18.57002407753913,0 146.29837938667,-18.57002851835023,0 146.2983718807604,-18.57003289723548,0 146.2983643346154,-18.57003721419059,0 146.2983567494055,-18.57004146591027,0 146.2983491262716,-18.57004565625998,0 146.2983414634921,-18.5700497819237,0 146.2983337633715,-18.57005384511641,0 146.2983260276541,-18.57005784363816,0 146.2983182557637,-18.57006177693522,0 146.2983104465458,-18.57006564445165,0 146.2983026034572,-18.57006944950997,0 146.2982947265205,-18.57007318659418,0 146.2982868134087,-18.57007685900526,0 146.298278868751,-18.5700804662088,0 146.2982708919759,-18.57008400654789,0 146.2982628813505,-18.57008747946444,0 146.2982548409189,-18.57009088607672,0 146.2982467683655,-18.5700942269277,0 146.2982386660151,-18.57009749926801,0 146.2982305332847,-18.57010070419868,0 146.2982223724925,-18.57010384062511,0 146.2982141818965,-18.57010691019564,0 146.2982059643977,-18.57010991071465,0 146.298197721144,-18.5701128443928,0 146.2981894498374,-18.5701157073603,0 146.2981811522043,-18.57011850183002,0 146.2981728317171,-18.57012122726324,0 146.2981644837488,-18.57012388364275,0 146.2981561129312,-18.57012646988256,0 146.2981477192595,-18.5701289870859,0 146.2981393021668,-18.57013143249256,0 146.2981308639485,-18.57013381052399,0 146.2981224028921,-18.57013611565771,0 146.2981139218693,-18.57013835286887,0 146.2981054220571,-18.57014051719738,0 146.298096899974,-18.57014261138834,0 146.2980883608209,-18.5701446365643,0 146.2980798028852,-18.5701465872028,0 146.2980712284558,-18.57014846938006,0 146.2980626352416,-18.57015027757147,0 146.2980540272688,-18.57015201730807,0 146.298045402251,-18.57015368196207,0 146.2980367647926,-18.57015527706668,0 146.2980281120154,-18.57015679930154,0 146.2980194444955,-18.57015824922038,0 146.2980107656964,-18.57015962849096,0 146.2980020727397,-18.57016093379287,0 146.2979933696608,-18.57016216845079,0 146.2979846558969,-18.57016332860137,0 146.2979759297016,-18.57016441699616,0 146.2979671957067,-18.57016543254917,0 146.2979584521724,-18.57016637635714,0 146.2979497002668,-18.57016724566636,0 146.2979409405594,-18.57016804268541,0 146.2979321753635,-18.57016876742288,0 146.2979234029442,-18.57016941987233,0 146.2979146233082,-18.57016999837894,0 146.2979058404998,-18.57017050406097,0 146.297897053945,-18.5701709358131,0 146.2978882619019,-18.57017129528366,0 146.2978794684261,-18.5701715808329,0 146.2978706717757,-18.57017179410919,0 146.2978618748516,-18.57017193291686,0 146.2978530747529,-18.57017199945158,0 146.2978442766918,-18.57017199207791,0 146.2978354771913,-18.57017191243773,0 146.2978266797308,-18.57017175833757,0 146.297817884299,-18.57017153253541,0 146.2978090897504,-18.57017123226895,0 146.2978002983895,-18.57017085975324,0 146.2977915136869,-18.57017041500116,0 146.2977827310309,-18.57016989413429,0 146.2977739527128,-18.57016930267724,0 146.2977651822165,-18.57016863733335,0 146.2977564172283,-18.570167898094,0 146.2977476583131,-18.57016708827094,0 146.2977389095333,-18.57016620456963,0 146.2977301668424,-18.57016524642343,0 146.2977214336926,-18.57016421825805,0 146.2977127118372,-18.57016311566714,0 146.2977039983753,-18.57016194084634,0 146.2976952961988,-18.57016069380643,0 146.2976866081997,-18.57015937455817,0 146.2976779291747,-18.57015798253056,0 146.2976692660668,-18.57015651719788,0 146.297660614816,-18.57015498130305,0 146.2976519788926,-18.57015337485897,0 146.2976433583126,-18.57015169400446,0 146.2976347530577,-18.57014994315233,0 146.2976261631371,-18.57014812009616,0 146.2976175908576,-18.5701462264994,0 146.2976090379634,-18.57014426016207,0 146.2976005021363,-18.5701422221788,0 146.2975919839436,-18.57014011530971,0 146.2975834868692,-18.57013793625815,0 146.2975750103256,-18.57013568722837,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00016">
+      <name>{1E554EB4-0335-4F61-8EE4-687E816F156C}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{1E554EB4-0335-4F61-8EE4-687E816F156C}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>16</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>56.766106</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>588</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{1E554EB4-0335-4F61-8EE4-687E816F156C}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>18_25_588</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>417175.329427</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7937617.00352</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>283.910287</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>417108.6448</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7937341.0199</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>417164.7874</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7937333.2636</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.2145975589749,-18.6534675337602,0 146.2145761603294,-18.65346660589897,0 146.2145527040249,-18.6534654019111,0 146.2145292602026,-18.65346400050128,0 146.2145058305782,-18.65346240608945,0 146.214482416898,-18.65346061647654,0 146.2144590191621,-18.65345863166257,0 146.2144356414211,-18.65345645166447,0 146.2144122836675,-18.653454078137,0 146.2143889493709,-18.65345151164629,0 146.2143656385415,-18.65344874998598,0 146.214342353494,-18.65344579316578,0 146.2143190976828,-18.65344264506132,0 146.2142958717043,-18.65343930181394,0 146.2142726761221,-18.65343576673555,0 146.2142495144132,-18.65343203873753,0 146.2142263871565,-18.65342811782234,0 146.2142032972402,-18.65342400510521,0 146.2141802458295,-18.6534196989363,0 146.2141572352211,-18.65341520318637,0 146.2141342654229,-18.65341051620067,0 146.2141113399069,-18.65340563799376,0 146.2140884609903,-18.65340056802374,0 146.2140656280844,-18.65339530849456,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00017">
+      <name>{1E554EB4-0335-4F61-8EE4-687E816F156C}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{1E554EB4-0335-4F61-8EE4-687E816F156C}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>17</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>31.894727</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>588</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{1E554EB4-0335-4F61-8EE4-687E816F156C}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>38_42_588</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>417120.756478</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7937827.32289</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>502.168391</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>417247.9158</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7937341.5313</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>417278.4933</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7937350.5819</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.2156763265379,-18.65331584508881,0 146.2156653334268,-18.65331924833437,0 146.2156257442495,-18.65333126673989,0 146.2155860483643,-18.65334295649205,0 146.2155462463629,-18.65335431483527,0 146.2155063428671,-18.65336534344357,0 146.2154663390548,-18.65337603790905,0 146.2154262378094,-18.65338640045007,0 146.215386043192,-18.65339642887714,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00018">
+      <name>{1E554EB4-0335-4F61-8EE4-687E816F156C}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{1E554EB4-0335-4F61-8EE4-687E816F156C}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>18</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>17.018563</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>588</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{1E554EB4-0335-4F61-8EE4-687E816F156C}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>44_46_588</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>417013.756105</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7938015.3448</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>715.764904</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>417290.8061</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7937355.3674</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>417306.4113</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7937362.1567</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.2159415099947,-18.65321236087672,0 146.2159022188128,-18.6532288038313,0 146.2158478169642,-18.65325110510448,0 146.2157932117508,-18.65327295375589,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00019">
+      <name>{1E554EB4-0335-4F61-8EE4-687E816F156C}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{1E554EB4-0335-4F61-8EE4-687E816F156C}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>19</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>63.285922</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>588</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{1E554EB4-0335-4F61-8EE4-687E816F156C}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>53_61_588</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>417209.198589</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7937601.50565</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>256.187455</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>417346.6677</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7937385.2308</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>417395.2904</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7937425.4951</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.2167870340782,-18.65264364192343,0 146.2167825270223,-18.65264813298699,0 146.2167677858392,-18.65266265243389,0 146.21675291444,-18.65267704833094,0 146.2167379105178,-18.6526913190137,0 146.2167227763796,-18.65270546614655,0 146.2167075143552,-18.6527194864296,0 146.216692125612,-18.65273337766131,0 146.216676608404,-18.65274714204073,0 146.2166609644849,-18.65276077571398,0 146.2166452002124,-18.65277428036234,0 146.2166293092439,-18.65278765099494,0 146.2166132979296,-18.65280089094781,0 146.2165971674445,-18.65281399636467,0 146.2165809143142,-18.65282696778258,0 146.2165645460714,-18.65283980302654,0 146.2165480592518,-18.65285250042727,0 146.2165314573196,-18.65286506165398,0 146.2165147420186,-18.65287748505914,0 146.2164979122066,-18.65288976732835,0 146.2164809707719,-18.65290190957685,0 146.2164639200342,-18.65291391071107,0 146.2164467582677,-18.65292576851742,0 146.2164294906728,-18.65293748467231,0 146.2164121137927,-18.65294905585176,0 146.216394633414,-18.65296048207984,0 146.2163770495368,-18.65297176335654,0 146.2163593615901,-18.65298289802467,0 146.2163415742158,-18.65299388334556,0 146.2163236850943,-18.65300472041273,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00020">
+      <name>{86DF2585-E86C-4252-B28E-35742F49CC6A}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{86DF2585-E86C-4252-B28E-35742F49CC6A}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>20</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>29.956461</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>589</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{86DF2585-E86C-4252-B28E-35742F49CC6A}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>7_10_589</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>418334.746692</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7937740.68688</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>607.423145</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>417840.6336</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7938093.982</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>417858.6602</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7938117.9036</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.2212083212511,-18.64640414940795,0 146.2211879535475,-18.6464285779796,0 146.2211569694602,-18.64646629465383,0 146.2211263325498,-18.64650426539211,0 146.2210960439611,-18.64654249295735,0 146.2210661072038,-18.64658096909027,0 146.2210365211256,-18.64661969268311,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00021">
+      <name>{86DF2585-E86C-4252-B28E-35742F49CC6A}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{86DF2585-E86C-4252-B28E-35742F49CC6A}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>21</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>45.173405</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>589</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{86DF2585-E86C-4252-B28E-35742F49CC6A}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>15_19_589</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>418300.004293</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7937764.75239</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>565.007935</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>417909.9562</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7938173.5204</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>417943.8465</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7938203.3699</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.2220195177103,-18.64563517365064,0 146.2220136266927,-18.64563969884091,0 146.2219773814974,-18.64566783582199,0 146.2219413941465,-18.64569627558622,0 146.2219056693017,-18.6457250109823,0 146.2218702086888,-18.64575404422392,0 146.2218350134853,-18.64578337090329,0 146.2218000906472,-18.64581298829136,0 146.2217654390197,-18.64584289583195,0 146.2217310632394,-18.64587309188957,0 146.221696965065,-18.64590357150731,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00022">
+      <name>{86DF2585-E86C-4252-B28E-35742F49CC6A}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{86DF2585-E86C-4252-B28E-35742F49CC6A}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>22</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>28.764336</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>589</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{86DF2585-E86C-4252-B28E-35742F49CC6A}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>71_73_589</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>418591.788788</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7938935.64803</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>465.047504</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>418757.7366</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7938501.2069</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>418784.2719</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7938512.2989</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.2299996825584,-18.642876079143,0 146.2299966011298,-18.64287739863159,0 146.2299614279353,-18.64289226189609,0 146.229926121224,-18.64290683391491,0 146.2298906815847,-18.64292111248399,0 146.2298551142426,-18.64293509376347,0 146.2298194174594,-18.6429487782978,0 146.2297835987576,-18.64296216611767,0 146.2297476575612,-18.64297525666911,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00023">
+      <name>{929BDF74-26C6-4173-A407-F3914BB0ABE6}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{929BDF74-26C6-4173-A407-F3914BB0ABE6}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>23</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>14.434403</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>684</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{929BDF74-26C6-4173-A407-F3914BB0ABE6}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>41_43_684</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>424955.736477</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7945739.18674</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>230.683858</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>424727.6528</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7945773.7558</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>424730.2626</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7945787.9502</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.2866439476927,-18.57734587471396,0 146.2866432508241,-18.57734890150457,0 146.2866392516277,-18.57736669060181,0 146.2866354171461,-18.5773845123152,0 146.2866317450705,-18.57740236553285,0 146.2866282382998,-18.57742024861085,0 146.2866248939443,-18.57743816098672,0 146.2866217131747,-18.57745609935525,0 146.286618698307,-18.57747406317359,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00024">
+      <name>{929BDF74-26C6-4173-A407-F3914BB0ABE6}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{929BDF74-26C6-4173-A407-F3914BB0ABE6}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>24</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>16.475471</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>684</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{929BDF74-26C6-4173-A407-F3914BB0ABE6}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>45_47_684</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>425751.254006</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7945467.31496</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>1070.933849</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>424733.1718</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7945799.5467</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>424738.3869</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7945815.1748</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.2867219658256,-18.57710013039261,0 146.2866999763378,-18.57716105939033,0 146.2866718001866,-18.57724113223008,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00025">
+      <name>{57AEB22A-4455-46E5-AEA9-B840938BBFBF}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{57AEB22A-4455-46E5-AEA9-B840938BBFBF}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>25</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>36.676747</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>737</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{57AEB22A-4455-46E5-AEA9-B840938BBFBF}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>17_23_737</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>425926.187596</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7946971.14025</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>238.359286</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>426137.0715</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7946860.1242</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>426151.6491</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7946893.7385</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.3001547254042,-18.56740281456554,0 146.3001505990808,-18.56741403277751,0 146.3001439424741,-18.56743172742254,0 146.3001371253044,-18.5674493652075,0 146.3001301452579,-18.56746694612383,0 146.3001230063878,-18.56748446908331,0 146.3001157063919,-18.56750193131932,0 146.300108245853,-18.56751933173081,0 146.3001006282435,-18.56753666977903,0 146.3000928512612,-18.56755394269737,0 146.3000849160582,-18.56757115159327,0 146.3000768249639,-18.56758829261413,0 146.3000685773953,-18.56760536686098,0 146.3000601722091,-18.56762237101988,0 146.3000516122995,-18.56763930454996,0 146.3000428994015,-18.56765616745762,0 146.3000340312197,-18.56767295532147,0 146.3000250094824,-18.56768966980268,0 146.300015836512,-18.56770630870347,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00026">
+      <name>{57AEB22A-4455-46E5-AEA9-B840938BBFBF}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{57AEB22A-4455-46E5-AEA9-B840938BBFBF}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>26</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>17.986414</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>737</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{57AEB22A-4455-46E5-AEA9-B840938BBFBF}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>33_35_737</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>426909.936765</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7946668.8985</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>791.576094</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>426190.4127</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7946998.8326</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>426198.0778</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7947015.1035</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.3005993774085,-18.56630769350711,0 146.3005820455217,-18.56634157087339,0 146.3005537548584,-18.56639786968845,0 146.3005259803165,-18.56645439932961,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00027">
+      <name>{26AD935F-6CF9-48C9-BB1C-0753EBF28997}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{26AD935F-6CF9-48C9-BB1C-0753EBF28997}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>27</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>46.335425</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>823</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{26AD935F-6CF9-48C9-BB1C-0753EBF28997}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>9_18_823</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>426655.42457</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7947916.46116</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>159.917543</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>426742.1174</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7947782.1389</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>426776.9935</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7947812.4105</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.3061136734742,-18.55912172361598,0 146.3061119218855,-18.55912365663741,0 146.3061032241835,-18.55913315593115,0 146.306094438277,-18.55914258429407,0 146.3060855665019,-18.55915193621864,0 146.3060766105775,-18.55916121557246,0 146.3060675693629,-18.55917041849004,0 146.3060584445818,-18.55917954773574,0 146.3060492374044,-18.55918860000421,0 146.3060399466763,-18.55919757473958,0 146.3060305735496,-18.55920647304929,0 146.3060211203446,-18.55921529328705,0 146.3060115864983,-18.55922403158946,0 146.3060019731498,-18.55923269237362,0 146.3059922803102,-18.5592412728815,0 146.3059825102974,-18.55924977201838,0 146.3059726631113,-18.55925818978425,0 146.3059627387542,-18.55926652562751,0 146.3059527383874,-18.55927477844918,0 146.3059426626002,-18.55928294549338,0 146.30593251311,-18.5592910311793,0 146.3059222905107,-18.55929903164781,0 146.3059119942329,-18.55930694469039,0 146.3059016260005,-18.55931477307142,0 146.3058911863941,-18.55932251624141,0 146.305880674851,-18.559330170337,0 146.3058700959892,-18.5593377375816,0 146.3058594486608,-18.55934521576456,0 146.3058487317091,-18.55935260488159,0 146.3058379491804,-18.55935990549918,0 146.3058270981897,-18.55936711595189,0 146.3058161833683,-18.5593742351535,0 146.3058052029766,-18.55938126420083,0 146.3057941581825,-18.55938820034014,0 146.3057830507099,-18.55939504633576,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00028">
+      <name>{26AD935F-6CF9-48C9-BB1C-0753EBF28997}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{26AD935F-6CF9-48C9-BB1C-0753EBF28997}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>28</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>16.638401</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>823</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{26AD935F-6CF9-48C9-BB1C-0753EBF28997}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>59_61_823</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>427857.603775</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7948242.78897</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>530.804017</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>427491.787</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7948627.413</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>427504.0247</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7948638.6849</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.3130334810933,-18.55168008491442,0 146.3130140811703,-18.5516965698318,0 146.312981511186,-18.55172463202911,0 146.3129491997775,-18.55175296655406,0 146.3129171510153,-18.55178156790548,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00029">
+      <name>{26AD935F-6CF9-48C9-BB1C-0753EBF28997}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{26AD935F-6CF9-48C9-BB1C-0753EBF28997}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>29</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>42.449195</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>823</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{26AD935F-6CF9-48C9-BB1C-0753EBF28997}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>90_92_823</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>428675.554898</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7947627.82856</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>1542.002143</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>427840.4235</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7948924.1164</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>427876.4305</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7948946.596</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.31657322712,-18.54891010162194,0 146.3165563411363,-18.54891979189597,0 146.3164474218568,-18.54898301666469,0 146.316339084179,-18.54904714425539,0 146.3162313379443,-18.54911217194658,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00030">
+      <name>{26AD935F-6CF9-48C9-BB1C-0753EBF28997}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{26AD935F-6CF9-48C9-BB1C-0753EBF28997}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>30</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>20.894683</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>823</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{26AD935F-6CF9-48C9-BB1C-0753EBF28997}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>154_158_823</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>429042.599993</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7949353.6329</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>144.413281</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>428985.5122</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7949486.2611</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>429005.2238</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7949493.1348</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.3272882680956,-18.54400930243831,0 146.3272815778113,-18.5440110046057,0 146.3272700615485,-18.54401401455761,0 146.3272585726683,-18.54401712058698,0 146.3272471123275,-18.54402032269795,0 146.3272356840045,-18.54402361869646,0 146.3272242853796,-18.54402701022909,0 146.327212916457,-18.5440304961926,0 146.3272015818632,-18.54403407660353,0 146.3271902787025,-18.54403775255477,0 146.3271790110357,-18.5440415207511,0 146.3271677771194,-18.54404538339279,0 146.3271565810039,-18.54404933994266,0 146.3271454203824,-18.54405338873765,0 146.3271342958267,-18.54405753143464,0 146.3271232119741,-18.5440617652921,0 146.3271121659309,-18.54406609085133,0 146.3271011594276,-18.54407050922174,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00031">
+      <name>{26AD935F-6CF9-48C9-BB1C-0753EBF28997}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{26AD935F-6CF9-48C9-BB1C-0753EBF28997}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>31</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>15.718952</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>823</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{26AD935F-6CF9-48C9-BB1C-0753EBF28997}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>168_171_823</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>429186.605458</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7949251.32114</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>280.454007</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>429112.4568</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7949521.7966</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>429127.7256</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7949525.5229</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.3284500960799,-18.54372063201482,0 146.3284405092342,-18.54372257711538,0 146.3284178582766,-18.54372731546712,0 146.3283952505405,-18.54373224041499,0 146.3283726889068,-18.5437373547273,0 146.3283501762777,-18.54374265565638,0 146.3283277120747,-18.54374814320014,0 146.3283052980285,-18.54375381846797,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00032">
+      <name>{26AD935F-6CF9-48C9-BB1C-0753EBF28997}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{26AD935F-6CF9-48C9-BB1C-0753EBF28997}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>32</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>11.835504</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>823</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{26AD935F-6CF9-48C9-BB1C-0753EBF28997}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>173_175_823</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>429056.637649</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7949904.88437</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>386.303937</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>429140.8789</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7949527.876</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>429152.3883</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7949530.6335</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.3286839550001,-18.54367527956999,0 146.3286681244737,-18.5436790459809,0 146.3286370824343,-18.54368622741502,0 146.3286059749042,-18.5436931482498,0 146.3285748082321,-18.54369981181747,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00033">
+      <name>{26AD935F-6CF9-48C9-BB1C-0753EBF28997}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{26AD935F-6CF9-48C9-BB1C-0753EBF28997}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>33</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>27.358046</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>823</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{26AD935F-6CF9-48C9-BB1C-0753EBF28997}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>179_184_823</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>429111.642154</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7949775.32615</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>246.528984</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>429199.4976</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7949545.0056</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>429224.476</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7949556.129</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.3293678701986,-18.54344726398241,0 146.329354836415,-18.5434535568414,0 146.3293365799133,-18.54346220584902,0 146.3293182465,-18.54347070509456,0 146.3292998362008,-18.54347904795871,0 146.3292813484183,-18.54348723940388,0 146.3292627877897,-18.54349527668841,0 146.3292441531647,-18.54350315815337,0 146.3292254474286,-18.54351088546385,0 146.3292066723271,-18.54351845586793,0 146.3291878278581,-18.54352586991722,0 146.3291689157587,-18.54353312706623,0 146.3291499395009,-18.54354022677569,0 146.3291308979304,-18.54354716848985,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00034">
+      <name>{26AD935F-6CF9-48C9-BB1C-0753EBF28997}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{26AD935F-6CF9-48C9-BB1C-0753EBF28997}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>34</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>18.244862</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>823</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{26AD935F-6CF9-48C9-BB1C-0753EBF28997}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>186_188_823</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>428869.127879</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7950182.71899</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>720.73443</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>429234.832</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7949561.6632</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>429250.4406</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7949571.1094</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.3296144078174,-18.54331275015824,0 146.3295686367168,-18.54333950696913,0 146.3295175692938,-18.54336880665874,0 146.3294662357567,-18.5433976800955,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00035">
+      <name>{F98CCF8B-E0B1-41B1-B301-8F64AF554CD6}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{F98CCF8B-E0B1-41B1-B301-8F64AF554CD6}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>35</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>53.40302</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>825</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{F98CCF8B-E0B1-41B1-B301-8F64AF554CD6}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>11_19_825</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>429293.600208</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7949883.21277</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>239.592703</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>429434.5416</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7949689.53</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>429473.9483</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7949725.4068</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.3317372430484,-18.54192553828784,0 146.3317301295324,-18.54193319654449,0 146.3317168951359,-18.54194725778702,0 146.3317035322067,-18.54196120769949,0 146.3316900407469,-18.54197504573025,0 146.3316764248155,-18.54198876913557,0 146.3316626826624,-18.54200238177055,0 146.3316488172071,-18.5420158764745,0 146.3316348272716,-18.54202925875937,0 146.3316207186688,-18.54204252092309,0 146.3316064873399,-18.54205566570936,0 146.331592136757,-18.54206869257883,0 146.331577665772,-18.54208159932093,0 146.3315630790156,-18.54209438484882,0 146.3315483759117,-18.54210704860881,0 146.3315335570428,-18.54211958949972,0 146.3315186235699,-18.54213200642238,0 146.3315035766518,-18.54214429882927,0 146.3314884203473,-18.54215646397668,0 146.331473151178,-18.54216850405868,0 146.3314577737767,-18.54218041743683,0 146.331442285839,-18.54219220189649,0 146.3314266919976,-18.5422038557992,0 146.3314109922527,-18.54221537914493,0 146.3313951871824,-18.54222677193569,0 146.3313792802545,-18.54223803473536,0 146.3313632691751,-18.54224916257126,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00036">
+      <name>{F98CCF8B-E0B1-41B1-B301-8F64AF554CD6}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{F98CCF8B-E0B1-41B1-B301-8F64AF554CD6}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>36</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>110.076774</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>825</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{F98CCF8B-E0B1-41B1-B301-8F64AF554CD6}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>21_36_825</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>429288.291543</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7949884.59174</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>245.033307</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>429486.9657</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7949741.6714</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>429529.7159</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7949842.0614</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.3322690673243,-18.54087325806127,0 146.332267332341,-18.54088235300016,0 146.3322635730053,-18.5409013422462,0 146.3322596408771,-18.54092029999094,0 146.3322555348039,-18.54093922512705,0 146.3322512542267,-18.54095811268804,0 146.3322468037589,-18.54097696599986,0 146.3322421787913,-18.54099578063333,0 146.3322373833654,-18.54101455825753,0 146.3322324157657,-18.54103329390189,0 146.3322272783138,-18.54105198536811,0 146.3322219675312,-18.54107063485036,0 146.3322164892096,-18.54108924016266,0 146.3322108381506,-18.54110779963173,0 146.3322050184151,-18.54112630996226,0 146.3321990305771,-18.54114477225949,0 146.3321928740754,-18.54116318210848,0 146.3321865477426,-18.54118154226321,0 146.3321800544895,-18.54119984776938,0 146.3321733943181,-18.54121809807539,0 146.3321665660696,-18.54123629372872,0 146.332159573229,-18.54125443088039,0 146.3321524134807,-18.54127251007382,0 146.3321450897332,-18.54129052690634,0 146.3321376008216,-18.54130848358028,0 146.3321299473325,-18.54132637789124,0 146.3321221333248,-18.54134420709546,0 146.3321141524414,-18.54136197006726,0 146.3321060110456,-18.54137966627746,0 146.3320977091418,-18.54139729462284,0 146.3320892455798,-18.54141485344449,0 146.3320806221051,-18.54143233999048,0 146.3320718369807,-18.54144975480625,0 146.3320628954197,-18.54146709570376,0 146.3320537928001,-18.54148436156342,0 146.332044535496,-18.54150154909806,0 146.3320351206029,-18.54151866160709,0 146.3320255475598,-18.54153569467556,0 146.3320158210037,-18.54155264556179,0 146.332005939191,-18.54156951646604,0 146.3319959021304,-18.54158630518188,0 146.3319857144654,-18.54160300731278,0 146.3319753727111,-18.5416196267077,0 146.3319648786261,-18.54163615730506,0 146.3319542350952,-18.5416526007699,0 146.3319434415467,-18.54166895544533,0 146.331932497413,-18.54168521857125,0 146.3319214055813,-18.54170139126105,0 146.3319101660686,-18.54171746910189,0 146.3318987817578,-18.54173345431037,0 146.3318872491943,-18.54174934301296,0 146.3318755712588,-18.54176513797788,0 146.3318637520271,-18.54178083204855,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00037">
+      <name>{F98CCF8B-E0B1-41B1-B301-8F64AF554CD6}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{F98CCF8B-E0B1-41B1-B301-8F64AF554CD6}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>37</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>34.458705</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>825</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{F98CCF8B-E0B1-41B1-B301-8F64AF554CD6}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>38_43_825</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>429251.21973</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7949885.89492</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>282.081084</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>429532.284</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7949862.1029</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>429533.1053</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7949896.5301</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.3323040596004,-18.54038128618974,0 146.3323047505869,-18.54040348887209,0 146.3323052384364,-18.54042573055256,0 146.3323055232904,-18.54044797482514,0 146.3323056034116,-18.54047022223532,0 146.3323054811283,-18.54049246893001,0 146.3323051558641,-18.54051471435559,0 146.3323046258927,-18.54053695629947,0 146.33230389354,-18.54055919146018,0 146.3323029564885,-18.5405814209328,0 146.3323018164902,-18.54060364031055,0 146.3323004735427,-18.54062585014506,0 146.332298928233,-18.54064804823194,0 146.3322971782542,-18.54067023290818,0 146.3322952276606,-18.54069240253328,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00038">
+      <name>{69DBF168-C632-4734-A908-820CDB01BD24}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{69DBF168-C632-4734-A908-820CDB01BD24}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>38</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>38.242964</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>826</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{69DBF168-C632-4734-A908-820CDB01BD24}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>14_19_826</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>426804.507107</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7947447.43176</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>332.846735</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>426513.6552</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7947609.3286</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>426534.2121</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7947641.5492</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.3038070457835,-18.56065762485434,0 146.3038043645692,-18.56066116126282,0 146.3037883525124,-18.56068251182495,0 146.3037725371364,-18.56070399549749,0 146.3037569184503,-18.56072561007408,0 146.3037414976176,-18.56074735390423,0 146.3037262757972,-18.56076922644067,0 146.3037112559012,-18.56079122272969,0 146.3036964385013,-18.56081334442826,0 146.303681821869,-18.56083558987526,0 146.3036674106539,-18.56085795357177,0 146.3036532042707,-18.56088043717051,0 146.3036392050397,-18.56090303902526,0 146.3036254123983,-18.56092575527274,0 146.3036118280795,-18.56094858647099,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00039">
+      <name>{69DBF168-C632-4734-A908-820CDB01BD24}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{69DBF168-C632-4734-A908-820CDB01BD24}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>39</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>9.719773</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>826</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{69DBF168-C632-4734-A908-820CDB01BD24}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>26_28_826</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>426640.763131</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7947593.57315</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>112.626366</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>426559.6962</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7947671.7632</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>426566.7377</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7947678.4594</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.304117157307,-18.56032557638977,0 146.3041109141492,-18.56033076828901,0 146.3041039463397,-18.56033666192178,0 146.3040970309326,-18.5603426120117,0 146.3040901725481,-18.56034862023064,0 146.3040833671444,-18.56035468490888,0 146.3040766181871,-18.56036080716245,0 146.3040699274225,-18.56036698423969,0 146.3040632896408,-18.56037321722466,0 146.3040567123654,-18.56037950504186,0 146.3040501921281,-18.56038584712691,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_00040">
+      <name>{69DBF168-C632-4734-A908-820CDB01BD24}</name>
+      <snippet></snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>{69DBF168-C632-4734-A908-820CDB01BD24}</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>FID</td>
+<td>40</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Shape_Leng</td>
+<td>56.49773</td>
+</tr>
+<tr>
+<td>Original_O</td>
+<td>826</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique_ID</td>
+<td>{69DBF168-C632-4734-A908-820CDB01BD24}</td>
+</tr>
+<tr>
+<td>CurveID</td>
+<td>31_37_826</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>R_Squared</td>
+<td>1</td>
+</tr>
+<tr>
+<td>R_Squared_</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>X_Center</td>
+<td>426745.85447</td>
+</tr>
+<tr>
+<td>Y_Center</td>
+<td>7947501.5673</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Radius</td>
+<td>250.761734</td>
+</tr>
+<tr>
+<td>X_Start</td>
+<td>426586.7612</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_Start</td>
+<td>7947695.4761</td>
+</tr>
+<tr>
+<td>X_End</td>
+<td>426634.1304</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Y_End</td>
+<td>7947726.0604</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body><script type="text/javascript">
+				function changeImage(attElement, nameElement) {
+				document.getElementById('imageAttachment').src = attElement;
+				document.getElementById('imageName').innerHTML = nameElement;}
+			</script></html>
+]]></description>
+      <styleUrl>#LineStyle00</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <extrude>0</extrude>
+          <tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode>
+          <coordinates> 146.3047574681367,-18.55989768276243,0 146.3047422793207,-18.55990488765098,0 146.3047237855912,-18.55991383337945,0 146.3047053745204,-18.55992293330973,0 146.304687048424,-18.55993218689878,0 146.3046688067348,-18.55994159138644,0 146.3046506517617,-18.5599511478845,0 146.3046325858181,-18.5599608564015,0 146.304614609498,-18.55997071307836,0 146.3045967216424,-18.55998071846247,0 146.3045789280259,-18.55999087478155,0 146.3045612292447,-18.56000117762498,0 146.3045436235638,-18.56001162698634,0 146.3045261144532,-18.56002222287848,0 146.3045087036592,-18.5600329625498,0 146.3044913905922,-18.56004384875619,0 146.3044741787381,-18.56005487764929,0 146.3044570692489,-18.56006605033655,0 146.3044400615576,-18.56007736405789,0 146.304423157397,-18.56008881937129,0 146.304406358511,-18.56010041407682,0 146.3043896672041,-18.5601121503894,0 146.304373085236,-18.56012402224785,0 146.3043566108537,-18.56013603405861,0 146.3043402458101,-18.56014818141531,0 146.3043239958866,-18.56016046489087,0 146.3043078553063,-18.5601728828092,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+  </Folder>
+  <Style id="LineStyle00">
+    <LabelStyle>
+      <color>00000000</color>
+      <scale>0.000000</scale>
+    </LabelStyle>
+    <LineStyle>
+      <color>ff9b349e</color>
+      <width>1.000000</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>00000000</color>
+      <outline>0</outline>
+    </PolyStyle>
+  </Style>
+</Document>
+</kml>
