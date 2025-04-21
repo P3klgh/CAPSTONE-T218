@@ -1,0 +1,36 @@
+/* 메뉴바 스타일 */
+QMenuBar {
+    background-color: #cfd0d1;  /* 조금 더 세련된 어두운 색상 */
+    color: #444444;
+    font: bold 14px;
+}
+
+/* 메뉴 항목의 기본 스타일 */
+QMenuBar::item {
+    background-color: #cfd0d1;
+    color: #444444;
+    padding: 5px;
+}
+
+QMenuBar::item#separator {
+    color: #cfd0d1;
+}
+
+/* 메뉴 항목 선택 시 */
+QMenuBar::item::selected {
+    background-color: #444444;
+    color: #f0f0f0;
+}
+
+/* 드롭다운 메뉴 스타일 */
+QMenu {
+    background-color: #2b2b2b;
+    color: white;
+    border: 1px solid #444;
+}
+
+/* 드롭다운 메뉴 항목 선택 시 */
+QMenu::item::selected {
+    background-color: #555555;
+    color: #f0f0f0;
+}
