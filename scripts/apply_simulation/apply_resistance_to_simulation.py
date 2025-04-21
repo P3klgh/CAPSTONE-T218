@@ -5,17 +5,10 @@ from algorithms.resistance.slope_resistance import compute_slope_resistance
 from algorithms.resistance.curve_resistance import compute_curve_resistance
 from algorithms.resistance.total_resistance import compute_total_resistance
 
-def apply_resistance_to_simulation(simulation_file_path: str, train_mass_kg: float, a: float, b: float, c: float) -> None:
-    """
-    주어진 시뮬레이션 트랙 데이터에 각 구간별 저항력을 계산하여 저장
+from utils.mass_utils import compute_total_train_mass       # ✅ 질량 계산 함수 import
+from utils.davis_utils import get_davis_constants           # ✅ Davis 상수 불러오기
 
-    Parameters:
-        simulation_file_path (str): JSON 파일 경로
-        train_mass_kg (float): 전체 기차 질량 [kg]
-        a (float): Davis equation constant A
-        b (float): Davis equation constant B
-        c (float): Davis equation constant C
-    """
+def apply_resistance_to_simulation(simulation_file_path: str, train_mass_kg: float, a: float, b: float, c: float) -> None:
     if not os.path.exists(simulation_file_path):
         print(f"❌ Error: File not found: {simulation_file_path}")
         return
@@ -29,7 +22,12 @@ def apply_resistance_to_simulation(simulation_file_path: str, train_mass_kg: flo
         a_slope = entry.get("a_slope")
         r_curve_val = entry.get("curvature_radius")
 
-        r_davis = compute_davis_resistance(a, b, c, v_mps)
+        # ✅ mass_kg 각 세그먼트에 저장
+        entry["mass_kg"] = train_mass_kg
+        mass_ton = train_mass_kg / 1000  # 🔥 여기 추가
+
+        r_davis_per_ton = compute_davis_resistance(v_mps, a, b, c)
+        r_davis = r_davis_per_ton * mass_ton  # 🔥 여기 핵심 수정
         r_slope = compute_slope_resistance(train_mass_kg, a_slope)
         r_curve = compute_curve_resistance(train_mass_kg, v_mps, r_curve_val, a_slope)
         r_total = compute_total_resistance(r_davis, r_slope, r_curve)
@@ -39,15 +37,26 @@ def apply_resistance_to_simulation(simulation_file_path: str, train_mass_kg: flo
         entry["R_curve"] = r_curve
         entry["R_total"] = r_total
 
+
+
     with open(simulation_file_path, "w", encoding="utf-8") as file:
         json.dump(data, file, indent=4, ensure_ascii=False)
 
     print(f"✅ Resistance calculation completed and saved to: {simulation_file_path}")
 
 
+# 🧪 실행 예제
 if __name__ == "__main__":
-    json_path = "../../algorithms/simulation_results/final_simulation(Lucinda).json"
-    total_train_mass_kg = 195000  # 실제 입력에 맞게 조정
-    A, B, C = 5000, 400, 30       # 예시 값
+    dataset = "Lucinda"
+    sim_path = f"../../algorithms/simulation_results/final_simulation({dataset}).json"
+    spec_path = "../../given_data/train_spec.json"
 
-    apply_resistance_to_simulation(json_path, total_train_mass_kg, A, B, C)
+    # ✅ train_spec에서 질량 계산
+    with open(spec_path, "r", encoding="utf-8") as f:
+        train_spec = json.load(f)
+    total_train_mass_kg = compute_total_train_mass(train_spec)
+
+    # ✅ Davis 상수 유틸로 가져오기
+    A, B, C = get_davis_constants()
+
+    apply_resistance_to_simulation(sim_path, total_train_mass_kg, A, B, C)

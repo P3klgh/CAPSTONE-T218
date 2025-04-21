@@ -1,6 +1,6 @@
 import math
 
-def compute_davis_resistance(velocity: float, A: float = 5.0, B: float = 1.2, C: float = 0.05) -> float:
+def compute_davis_resistance(velocity: float, A: float, B: float, C: float) -> float:
     """
     Compute the basic Davis resistance using the formula:
     R = A + B*v + C*v^2

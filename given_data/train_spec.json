@@ -1,25 +1,20 @@
 {
-    "mass_full_bin": 7400,
-    "mass_empty_bin": 1280,
-    "num_full_bins": 30,
-    "num_empty_bins": 5,
-    "mass_locomotive": 38000,
-    "mass_brakevan": 29000,
-    "has_brakevan": 1,
-    "rolling_resistance_full": 10.6,
-    "rolling_resistance_empty": 13.3,
-    "rolling_resistance_locomotive_drive": 184,
-    "rolling_resistance_brakevan": 15,
-    "curve_resistance_factor": 2628,
-    "tractive_effort_curve": {
-        "0": 188.7,
-        "10": 155,
-        "20": 120
-    },
-    "engine_power_curve": {
-        "600": 105.1,
-        "750": 140.1,
-        "900": 187.2,
-        "1050": 252.8
-    }
+  "mass_full_bin": 7400,
+  "mass_empty_bin": 1280,
+  "num_full_bins": 30,
+  "num_empty_bins": 5,
+  "mass_locomotive": 38000,
+  "mass_brakevan": 29000,
+  "has_brakevan": 1,
+  "rolling_resistance_full": 10.6,
+  "rolling_resistance_empty": 13.3,
+  "rolling_resistance_locomotive_drive": 184,
+  "rolling_resistance_brakevan": 15,
+  "curve_resistance_factor": 2628,
+
+  "tractive_effort_curve": {
+    "0": 188.7,
+    "10": 155,
+    "20": 120
+  }
 }
