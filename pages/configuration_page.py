@@ -2,6 +2,7 @@ import qtawesome as qta  # qtawesome 모듈 가져오기
 from PyQt6.QtWidgets import QWidget, QComboBox, QTabWidget, QTableWidget, QListWidget, QListWidgetItem, QStackedWidget, QVBoxLayout, QLabel, QFrame, QLineEdit, QPushButton, QHBoxLayout, QFileDialog
 from PyQt6.QtCore import Qt, QRect # 커서를 변경하기 위한 모듈
 # from modules import title_widget  # 타이틀 모듈 임포트
+from pages import welcome_page
 from functools import partial
 
 class ConfigurationPage(QWidget):
@@ -38,6 +39,7 @@ class ConfigurationPage(QWidget):
         self.rightPanel.addWidget(self.configurationtabwidget)
         self.run_button = QPushButton('Run simulation')
         self.run_button.setFixedWidth(150)
+        self.run_button.clicked.connect(welcome_page.show_simulation_page)
         self.rightPanel.addWidget(self.run_button, alignment=Qt.AlignmentFlag.AlignRight)
         self.frame_layout.addLayout(self.rightPanel)
         self.setLayout(self.frame_layout)

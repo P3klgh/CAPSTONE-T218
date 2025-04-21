@@ -3,6 +3,7 @@ from PyQt6.QtWidgets import QMainWindow, QWidget, QStackedWidget, QVBoxLayout, Q
 from PyQt6.QtCore import Qt  # 커서를 변경하기 위한 모듈
 # import modules.title_widget  # 타이틀 모듈 임포트
 from pages.configuration_page import ConfigurationPage
+from pages.graph_expansion import GraphExpansionPage
 
 class WelcomePage(QWidget):
     def __init__(self, parent=QWidget):
@@ -172,12 +173,19 @@ class WelcomePage(QWidget):
         self.setObjectName('h2_heading')
         self.page3 = ConfigurationPage(project_name, user_name)
         self.stacked_widget.addWidget(self.page3)
-        
+
         self.create_project_button.hide()
         self.open_project_button.hide()
         self.stacked_widget.setCurrentIndex(2)
         self.create_button.update()
         self.open_project_button.update()
         self.create_project_button.update()
+    
+    def show_simulation_page(self, event):
+         # Open simulation page
+        self.page4 = GraphExpansionPage()
+        self.stacked_widget.addWidget(self.page4)
+        self.stacked_widget.setCurrentIndex(3)
+        
 
         
