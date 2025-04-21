@@ -2,7 +2,7 @@ import qtawesome as qta  # qtawesome 모듈 가져오기
 from PyQt6.QtWidgets import QMainWindow, QWidget, QStackedWidget, QVBoxLayout, QLabel, QFrame, QLineEdit, QPushButton, QHBoxLayout, QFileDialog
 from PyQt6.QtCore import Qt  # 커서를 변경하기 위한 모듈
 # import modules.title_widget  # 타이틀 모듈 임포트
-from configuration_page import ConfigurationPage
+from pages.configuration_page import ConfigurationPage
 
 class WelcomePage(QWidget):
     def __init__(self, parent=QWidget):
