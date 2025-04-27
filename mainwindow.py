@@ -18,7 +18,6 @@ class MainWindow(QMainWindow):
         self.apply_stylesheet()
 
     def create_menu_bar(self):
-       
         menu_bar = self.menuBar()
         file_menu = menu_bar.addMenu('File')
         
@@ -44,7 +43,7 @@ class MainWindow(QMainWindow):
         file_menu.addAction(save_as_action)
 
         exit_action = QAction(qta.icon('fa.times', color='white'), 'Exit', self)
-        exit_action.triggered.connect(self.close)  
+        exit_action.triggered.connect(self.close)
         file_menu.addAction(exit_action)
 
         tools_menu = menu_bar.addMenu('Tools')
@@ -69,7 +68,7 @@ class MainWindow(QMainWindow):
         help_menu.addAction(user_manual_action)
    
     def apply_stylesheet(self):
-        stylesheet = load_stylesheets()  
+        stylesheet = load_stylesheets()
         self.setStyleSheet(stylesheet)
 
     def new_project(self):

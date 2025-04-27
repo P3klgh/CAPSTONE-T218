@@ -1,9 +1,9 @@
 import qtawesome as qta  # qtawesome 모듈 가져오기
-from PyQt6.QtWidgets import QMainWindow, QWidget, QStackedWidget, QVBoxLayout, QLabel, QFrame, QLineEdit, QPushButton, QHBoxLayout, QFileDialog
+from PyQt6.QtWidgets import *
 from PyQt6.QtCore import Qt  # 커서를 변경하기 위한 모듈
 # import modules.title_widget  # 타이틀 모듈 임포트
 from pages.configuration_page import ConfigurationPage
-from pages.graph_expansion import GraphExpansionPage
+from pages.simulation_dashboard import SimulationDashboard
 
 class WelcomePage(QWidget):
     def __init__(self, parent=QWidget):
@@ -134,6 +134,7 @@ class WelcomePage(QWidget):
         page2_layout.addLayout(path_layout)
         page2_layout.addWidget(open_button)
         page2_frame.setLayout(page2_layout)
+
         return page2_frame
 
     def browse_file(self):
@@ -149,7 +150,7 @@ class WelcomePage(QWidget):
         self.open_project_button.update()
 
     def show_open_project(self, event):
-        self.stacked_widget.setCurrentIndex(1)      
+        self.stacked_widget.setCurrentIndex(1)     
         self.open_project_button.update()
         self.create_project_button.update()
 
@@ -169,9 +170,15 @@ class WelcomePage(QWidget):
             return
         
         # 페이지 3 - Open configuration page
-        self.title.setText('Settings Page')
+        self.title.setText('Settings')
         self.setObjectName('h2_heading')
-        self.page3 = ConfigurationPage(project_name, user_name)
+
+        #create run simulation button
+        self.run_button = QPushButton('Run simulation')
+        self.run_button.setFixedWidth(150)
+        self.run_button.mousePressEvent = self.show_simulation_page
+
+        self.page3 = ConfigurationPage(project_name, user_name, self.run_button)
         self.stacked_widget.addWidget(self.page3)
 
         self.create_project_button.hide()
@@ -182,10 +189,13 @@ class WelcomePage(QWidget):
         self.create_project_button.update()
     
     def show_simulation_page(self, event):
-         # Open simulation page
-        self.page4 = GraphExpansionPage()
+        # Open simulation page
+        self.title.setText('Simulation Dashboard')
+        self.page4 = SimulationDashboard()
         self.stacked_widget.addWidget(self.page4)
         self.stacked_widget.setCurrentIndex(3)
+
+
         
 
         

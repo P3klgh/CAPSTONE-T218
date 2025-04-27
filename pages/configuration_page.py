@@ -2,11 +2,10 @@ import qtawesome as qta  # qtawesome 모듈 가져오기
 from PyQt6.QtWidgets import QWidget, QComboBox, QTabWidget, QTableWidget, QListWidget, QListWidgetItem, QStackedWidget, QVBoxLayout, QLabel, QFrame, QLineEdit, QPushButton, QHBoxLayout, QFileDialog
 from PyQt6.QtCore import Qt, QRect # 커서를 변경하기 위한 모듈
 # from modules import title_widget  # 타이틀 모듈 임포트
-from pages import welcome_page
 from functools import partial
 
 class ConfigurationPage(QWidget):
-    def __init__(self, project_name, user_name, parent=None):
+    def __init__(self, project_name, user_name, run_button, parent=None):
         super().__init__(parent)
 
         self.user_name = user_name
@@ -37,16 +36,15 @@ class ConfigurationPage(QWidget):
         # Add configuration tabs to right panel
         self.configurationtabwidget = self.create_configuration_tabs()
         self.rightPanel.addWidget(self.configurationtabwidget)
-        self.run_button = QPushButton('Run simulation')
-        self.run_button.setFixedWidth(150)
-        self.run_button.clicked.connect(welcome_page.show_simulation_page)
-        self.rightPanel.addWidget(self.run_button, alignment=Qt.AlignmentFlag.AlignRight)
+        # self.run_button = QPushButton('Run simulation')
+        # self.run_button.setFixedWidth(150)
+        # self.run_button.mousePressEvent = pages.welcome_page.WelcomePage.show_simulation_page
+        self.rightPanel.addWidget(run_button, alignment=Qt.AlignmentFlag.AlignRight)
         self.frame_layout.addLayout(self.rightPanel)
         self.setLayout(self.frame_layout)
         self.setObjectName('configuration_page')
 
     def create_left_panel(self):
-
         self.leftPanel = QVBoxLayout()
         self.projectLabel = QHBoxLayout()
 
@@ -131,8 +129,6 @@ class ConfigurationPage(QWidget):
         self.configurationTab.addTab(self.cartTab, "cart")
         self.configurationTab.addTab(self.brakevanTab, "brake van")
         self.configurationTab.addTab(self.engineTab, "engine")
-
-        self.configurationTab
 
         self.configurationTab.setCurrentIndex(0)
 
