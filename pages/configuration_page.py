@@ -34,8 +34,10 @@ class ConfigurationPage(QWidget):
         self.rightPanel.addWidget(self.configurationtext)
 
         # Add configuration tabs to right panel
-        self.configurationtabwidget = self.create_configuration_tabs()
-        self.rightPanel.addWidget(self.configurationtabwidget)
+        self.configurationTabWidget = self.create_configuration_tabs()
+        self.simulationDetails = self.simulation_details()
+        self.rightPanel.addWidget(self.configurationTabWidget)
+        self.rightPanel.addLayout(self.simulationDetails)
         # self.run_button = QPushButton('Run simulation')
         # self.run_button.setFixedWidth(150)
         # self.run_button.mousePressEvent = pages.welcome_page.WelcomePage.show_simulation_page
@@ -221,6 +223,42 @@ class ConfigurationPage(QWidget):
         self.verticallayout3.addWidget(view_table)
 
         return tab
+    
+    def simulation_details(self):
+        #create simulation input and labels
+        simulation_container = QHBoxLayout()
+        self.simulation_container_inner1 = QVBoxLayout()
+        self.simulation_container_inner2 = QVBoxLayout()
+        self.simulation_container_inner3 = QVBoxLayout()
+        self.start_pt_label = QLabel("Start point:")
+        self.start_pt_input = QLineEdit(clearButtonEnabled=True)
+        self.stop_pt_label = QLabel("Stop point:")
+        self.stop_pt_input = QLineEdit(clearButtonEnabled=True)
+        self.braking_distance_label = QLabel("Braking distance:")
+        self.braking_distance_input = QLineEdit(clearButtonEnabled=True)
+        self.track_interval_label = QLabel("Track interval:")
+        self.track_interval_input = QLineEdit(clearButtonEnabled=True)
+        self.integration_interval_label = QLabel("Integration interval:")
+        self.integration_interval_input = QLineEdit(clearButtonEnabled=True)
+        self.maximum_time_label = QLabel("Maximum time:")
+        self.maximum_time_input = QLineEdit(clearButtonEnabled=True)
+
+        self.simulation_container_inner1.addWidget(self.start_pt_label)
+        self.simulation_container_inner1.addWidget(self.start_pt_input)
+        self.simulation_container_inner1.addWidget(self.stop_pt_label)
+        self.simulation_container_inner1.addWidget(self.braking_distance_label)
+        self.simulation_container_inner2.addWidget(self.braking_distance_input)
+        self.simulation_container_inner2.addWidget(self.track_interval_label)
+        self.simulation_container_inner2.addWidget(self.track_interval_input)
+        self.simulation_container_inner2.addWidget(self.integration_interval_label)
+        self.simulation_container_inner3.addWidget(self.integration_interval_input)
+        self.simulation_container_inner3.addWidget(self.maximum_time_label)
+        self.simulation_container_inner3.addWidget(self.maximum_time_input)
+        simulation_container.addLayout(self.simulation_container_inner1)
+        simulation_container.addLayout(self.simulation_container_inner2)
+        simulation_container.addLayout(self.simulation_container_inner3)
+
+        return simulation_container
     
     def deleteRow(self, table1, table2):
         current_row1 = table1.rowCount()
