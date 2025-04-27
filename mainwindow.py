@@ -1,6 +1,6 @@
 import sys
-from PyQt6.QtWidgets import QApplication, QMainWindow, QMenuBar, QFileDialog, QMessageBox
-from PyQt6.QtGui import QAction  
+from PyQt6.QtWidgets import *
+from PyQt6.QtGui import *
 import qtawesome as qta
 from pages.welcome_page import WelcomePage
 from styles_loader import load_stylesheets

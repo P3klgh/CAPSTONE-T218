@@ -1,6 +1,6 @@
 import qtawesome as qta  # qtawesome 모듈 가져오기
-from PyQt6.QtWidgets import QWidget, QComboBox, QTabWidget, QTableWidget, QListWidget, QListWidgetItem, QStackedWidget, QVBoxLayout, QLabel, QFrame, QLineEdit, QPushButton, QHBoxLayout, QFileDialog
-from PyQt6.QtCore import Qt, QRect # 커서를 변경하기 위한 모듈
+from PyQt6.QtWidgets import *
+from PyQt6.QtCore import * # 커서를 변경하기 위한 모듈
 # from modules import title_widget  # 타이틀 모듈 임포트
 from functools import partial
 

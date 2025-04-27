@@ -5,6 +5,7 @@ from modules import title_widget  # 타이틀 모듈 임포트
 from functools import partial
 from pages.graph_widget import GraphWidget
 from pages.report_page import ReportPage
+from PyQt6.QtWebEngineWidgets import QWebEngineView
 import matplotlib
 matplotlib.use('QtAgg')
 
@@ -51,11 +52,12 @@ class SimulationDashboard(QWidget):
         
         # Add widgets to control layout
         control_layout.addWidget(self.map_label)
-        # control_layout.addWidget(self.speed_label)
-        # control_layout.addWidget(self.speed_slider)
-        # control_layout.addStretch()
-        # control_layout.addWidget(self.start_button)
-        # control_layout.addWidget(self.reset_button)
+
+        
+        # Visualize / initialize simulation report
+        self.view_report_button = QPushButton("View report")
+        self.view_report_button.clicked.connect(self.show_report)
+        control_layout.addWidget(self.view_report_button)
         
         # Display area
         self.display_area = QWidget()
@@ -88,10 +90,6 @@ class SimulationDashboard(QWidget):
         self.simulation_value = 0.0
 
         self.setLayout(main_layout)
-
-        # Visualize / initialize simulation report
-        self.view_report_button = QPushButton("View report")
-        self.view_report_button.clicked.connect(self.show_report)
         
     def update_speed(self):
         speed = self.speed_slider.value()
@@ -122,5 +120,12 @@ class SimulationDashboard(QWidget):
         self.value_label.setText(f"Value: {self.simulation_value:.2f}")
     
     def show_report(self):
-        #create window 
-        self.report_window = ReportPage()
+         #create window 
+        self.report_window = ReportPage("https://www.google.com/")
+        self.report_window.exec()
+        # self.view = QWebEngineView()
+        # self.view.setUrl(QUrl("https://qt-project.org/"))
+        # self.view.resize(1024, 750)
+        # self.view.show()
+
+

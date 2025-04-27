@@ -1,6 +1,6 @@
 from random import randint
-from PyQt6.QtWidgets import QWidget, QComboBox, QTabWidget, QTableWidget, QListWidget, QListWidgetItem, QStackedWidget, QVBoxLayout, QLabel, QFrame, QLineEdit, QPushButton, QHBoxLayout, QFileDialog
-from PyQt6 import QtCore, QtWidgets
+from PyQt6.QtWidgets import *
+from PyQt6 import *
 import pyqtgraph as pg
 
 class GraphWidget(QWidget):

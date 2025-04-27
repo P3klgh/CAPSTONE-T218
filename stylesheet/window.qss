@@ -66,6 +66,13 @@ QLabel#bold_small {
     font-size: 13px;
 }
 
+QLabel#simulation_title {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px 50px;
+    text-align: center;
+}
+
 /* QLineEdit 스타일 */
 
 QLineEdit {
