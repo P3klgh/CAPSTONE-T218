@@ -53,7 +53,6 @@ class SimulationDashboard(QWidget):
         # Add widgets to control layout
         control_layout.addWidget(self.map_label)
 
-        
         # Visualize / initialize simulation report
         self.view_report_button = QPushButton("View report")
         self.view_report_button.clicked.connect(self.show_report)
@@ -82,8 +81,8 @@ class SimulationDashboard(QWidget):
         
         # Connect signals
         self.speed_slider.valueChanged.connect(self.update_speed)
-        self.start_button.clicked.connect(self.toggle_simulation)
-        self.reset_button.clicked.connect(self.reset_simulation)
+        # self.start_button.clicked.connect(self.toggle_simulation)
+        # self.reset_button.clicked.connect(self.reset_simulation)
         
         # Initialize state
         self.is_running = False
@@ -104,7 +103,7 @@ class SimulationDashboard(QWidget):
             self.timer.stop()
             self.start_button.setText("Start Simulation")
             self.status_label.setText("Status: Paused")
-        self.is_running = not self.is_running
+            self.is_running = not self.is_running
     
     def reset_simulation(self):
         self.timer.stop()
@@ -120,12 +119,8 @@ class SimulationDashboard(QWidget):
         self.value_label.setText(f"Value: {self.simulation_value:.2f}")
     
     def show_report(self):
-         #create window 
-        self.report_window = ReportPage("https://www.google.com/")
+         #create window
+        self.report_window = ReportPage("https://www.google.com/") #insert page here
         self.report_window.exec()
-        # self.view = QWebEngineView()
-        # self.view.setUrl(QUrl("https://qt-project.org/"))
-        # self.view.resize(1024, 750)
-        # self.view.show()
 
 

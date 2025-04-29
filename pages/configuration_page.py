@@ -226,39 +226,63 @@ class ConfigurationPage(QWidget):
     
     def simulation_details(self):
         #create simulation input and labels
+        simulation_wrapper = QVBoxLayout()
         simulation_container = QHBoxLayout()
         self.simulation_container_inner1 = QVBoxLayout()
         self.simulation_container_inner2 = QVBoxLayout()
         self.simulation_container_inner3 = QVBoxLayout()
+
         self.start_pt_label = QLabel("Start point:")
+        self.start_pt_label.setObjectName('small_label_2')
         self.start_pt_input = QLineEdit(clearButtonEnabled=True)
         self.stop_pt_label = QLabel("Stop point:")
+        self.stop_pt_label.setObjectName('small_label_2')
         self.stop_pt_input = QLineEdit(clearButtonEnabled=True)
         self.braking_distance_label = QLabel("Braking distance:")
+        self.braking_distance_label.setObjectName('small_label_2')
         self.braking_distance_input = QLineEdit(clearButtonEnabled=True)
         self.track_interval_label = QLabel("Track interval:")
+        self.track_interval_label.setObjectName('small_label_2')
         self.track_interval_input = QLineEdit(clearButtonEnabled=True)
         self.integration_interval_label = QLabel("Integration interval:")
+        self.integration_interval_label.setObjectName('small_label_2')
         self.integration_interval_input = QLineEdit(clearButtonEnabled=True)
         self.maximum_time_label = QLabel("Maximum time:")
+        self.maximum_time_label.setObjectName('small_label_2')
         self.maximum_time_input = QLineEdit(clearButtonEnabled=True)
+
+        self.start_pt_input.setObjectName('small_input2')
+        self.stop_pt_input.setObjectName('small_input2')
+        self.braking_distance_input.setObjectName('small_input2')
+        self.track_interval_input.setObjectName('small_input2')
+        self.integration_interval_input.setObjectName('small_input2')
+        self.maximum_time_input.setObjectName('small_input2')
 
         self.simulation_container_inner1.addWidget(self.start_pt_label)
         self.simulation_container_inner1.addWidget(self.start_pt_input)
         self.simulation_container_inner1.addWidget(self.stop_pt_label)
-        self.simulation_container_inner1.addWidget(self.braking_distance_label)
+        self.simulation_container_inner1.addWidget(self.stop_pt_input)
+
+        self.simulation_container_inner2.addWidget(self.braking_distance_label)
         self.simulation_container_inner2.addWidget(self.braking_distance_input)
         self.simulation_container_inner2.addWidget(self.track_interval_label)
         self.simulation_container_inner2.addWidget(self.track_interval_input)
-        self.simulation_container_inner2.addWidget(self.integration_interval_label)
+
+        self.simulation_container_inner3.addWidget(self.integration_interval_label)
         self.simulation_container_inner3.addWidget(self.integration_interval_input)
         self.simulation_container_inner3.addWidget(self.maximum_time_label)
         self.simulation_container_inner3.addWidget(self.maximum_time_input)
+
+        self.simulation_header = QLabel('Simulation details:')
+        self.simulation_header.setObjectName('simulation_header')
+        simulation_wrapper.addWidget(self.simulation_header)
         simulation_container.addLayout(self.simulation_container_inner1)
         simulation_container.addLayout(self.simulation_container_inner2)
         simulation_container.addLayout(self.simulation_container_inner3)
+        simulation_container.addStretch()
+        simulation_wrapper.addLayout(simulation_container)
 
-        return simulation_container
+        return simulation_wrapper
     
     def deleteRow(self, table1, table2):
         current_row1 = table1.rowCount()
@@ -302,6 +326,7 @@ class ConfigurationPage(QWidget):
         table.setRowCount(0)
         table_height = table.height()
         table.setFixedHeight(table_height - 31 * (1 + row_index))
+
     
 
 

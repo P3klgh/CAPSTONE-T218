@@ -20,6 +20,22 @@ QFrame#existing_frame {
     background: red;
 }
 
+/* QInput box */
+#small_input {
+    width: 120px;
+    height: 18px;
+    padding: 4px;
+    background-color: transparent;
+}
+
+#small_input2 {
+    width: 120px;
+    height: 18px;
+    padding: 4px;
+    margin: 0px 20px 5px 20px;
+    background-color: transparent;
+}
+
 /* QLabel 스타일 */
 QLabel {
     font-size: 17px;
@@ -61,6 +77,12 @@ QLabel#small_label {
     font-weight: normal;
 }
 
+QLabel#small_label_2 {
+    font-size: 11px;
+    font-weight: normal;
+    padding-left: 15px;
+}
+
 QLabel#bold_small {
     font-weight: bold;
     font-size: 13px;
@@ -71,6 +93,11 @@ QLabel#simulation_title {
     font-weight: bold;
     padding: 30px 50px;
     text-align: center;
+}
+
+QLabel#simulation_header {
+    font-size: 14px;
+    padding: 10px 20px 12px 10px;
 }
 
 /* QLineEdit 스타일 */

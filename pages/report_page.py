@@ -11,7 +11,7 @@ class ReportPage(QDialog):
         self.setWindowTitle("Simulation Results Report")
                  
         self.browser = QWebEngineView()
-        self.browser.load(QUrl("https://www.google.com"))
+        self.browser.load(QUrl(url))
         self.simulation_title = QLabel("Simulation Results Report")
         self.simulation_title.setObjectName('simulation_title')
 
