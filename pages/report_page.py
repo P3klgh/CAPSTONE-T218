@@ -6,10 +6,10 @@ import pyqtgraph as pg
 class ReportPage(QDialog):
     def __init__(self, url, parent=None):
         super().__init__()
-        
+
         #Set up the report page
         self.setWindowTitle("Simulation Results Report")
-                 
+
         self.browser = QWebEngineView()
         self.browser.load(QUrl(url))
         self.simulation_title = QLabel("Simulation Results Report")
