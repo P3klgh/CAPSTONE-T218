@@ -1,16 +1,13 @@
 import os
 import json
-import threading
 import webbrowser
 import pandas as pd
 import dash
 from dash import Dash, html, dash_table, Input, Output, callback_context
 
-
 def resolve_path(*relative_parts):
     base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
     return os.path.join(base_dir, *relative_parts)
-
 
 def plot_interactive_table_dash(sim_path: str):
     sim_path = resolve_path(sim_path)
@@ -61,7 +58,7 @@ def plot_interactive_table_dash(sim_path: str):
     app.title = "Simulation Table"
 
     app.layout = html.Div([
-        html.H2("Simulation Data Table"),
+        # html.H2("Simulation Data Table"),
         html.Div([
             html.Button("Base Fields", id="btn-base", n_clicks=0),
             html.Button("Show All Fields", id="btn-all", n_clicks=0),
@@ -116,36 +113,37 @@ def plot_interactive_table_dash(sim_path: str):
 
         )
     ])
+    return app
 
-    @app.callback(
-        Output("sim-table", "columns"),
-        Input("btn-base", "n_clicks"),
-        Input("btn-all", "n_clicks"),
-        Input("btn-energy", "n_clicks"),
-        Input("btn-velocity", "n_clicks"),
-        Input("btn-resist", "n_clicks"),
-    )
-    def update_table_columns(n1, n2, n3, n4, n5):
-        ctx = callback_context
-        if not ctx.triggered:
-            return [{"name": col, "id": col} for col in base_fields]
-        btn_id = ctx.triggered[0]["prop_id"].split(".")[0]
+    # @app.callback(
+    #     Output("sim-table", "columns"),
+    #     Input("btn-base", "n_clicks"),
+    #     Input("btn-all", "n_clicks"),
+    #     Input("btn-energy", "n_clicks"),
+    #     Input("btn-velocity", "n_clicks"),
+    #     Input("btn-resist", "n_clicks"),
+    # )
+    # def update_table_columns(n1, n2, n3, n4, n5):
+    #     ctx = callback_context
+    #     if not ctx.triggered:
+    #         return [{"name": col, "id": col} for col in base_fields]
+    #     btn_id = ctx.triggered[0]["prop_id"].split(".")[0]
 
-        if btn_id == "btn-base":
-            return [{"name": col, "id": col} for col in base_fields]
-        elif btn_id == "btn-all":
-            return [{"name": col, "id": col} for col in all_fields]
-        elif btn_id == "btn-energy":
-            return [{"name": col, "id": col} for col in ["Cumulative Distance (m)"] + energy_fields]
-        elif btn_id == "btn-velocity":
-            return [{"name": col, "id": col} for col in ["Cumulative Distance (m)"] + velocity_fields]
-        elif btn_id == "btn-resist":
-            return [{"name": col, "id": col} for col in ["Cumulative Distance (m)"] + resistance_fields]
-        return [{"name": col, "id": col} for col in base_fields]
+    #     if btn_id == "btn-base":
+    #         return [{"name": col, "id": col} for col in base_fields]
+    #     elif btn_id == "btn-all":
+    #         return [{"name": col, "id": col} for col in all_fields]
+    #     elif btn_id == "btn-energy":
+    #         return [{"name": col, "id": col} for col in ["Cumulative Distance (m)"] + energy_fields]
+    #     elif btn_id == "btn-velocity":
+    #         return [{"name": col, "id": col} for col in ["Cumulative Distance (m)"] + velocity_fields]
+    #     elif btn_id == "btn-resist":
+    #         return [{"name": col, "id": col} for col in ["Cumulative Distance (m)"] + resistance_fields]
+    #     return [{"name": col, "id": col} for col in base_fields]
 
-    threading.Timer(1.0, lambda: webbrowser.open("http://127.0.0.1:8050")).start()
-    app.run(debug=False)
+    # threading.Timer(1.0, lambda: webbrowser.open("http://127.0.0.1:8050")).start()
+    # app.run(debug=False)
 
 
-if __name__ == "__main__":
-    plot_interactive_table_dash("algorithms/simulation_results/final_simulation(Lucinda).json")
+# if __name__ == "__main__":
+#     plot_interactive_table_dash("algorithms/simulation_results/final_simulation(Lucinda).json")

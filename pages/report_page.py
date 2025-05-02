@@ -1,18 +1,16 @@
 from PyQt6.QtCore import *
 from PyQt6.QtWidgets import *
 from PyQt6.QtWebEngineWidgets import *
-import pyqtgraph as pg
+from scripts.visualize.dash_worker import *
+from scripts.visualize.plot_table import *
 
 class ReportPage(QDialog):
-    def __init__(self, url, parent=None):
-        super().__init__()
+    def __init__(self, parent=None):
+        super().__init__(parent)
 
         #Set up the report page
-        self.setWindowTitle("Simulation Results Report")
-
         self.browser = QWebEngineView()
-        self.browser.load(QUrl(url))
-        self.simulation_title = QLabel("Simulation Results Report")
+        self.simulation_title = QLabel("Simulation Data Results")
         self.simulation_title.setObjectName('simulation_title')
 
         layout = QVBoxLayout()
@@ -21,15 +19,37 @@ class ReportPage(QDialog):
         layout.addWidget(self.browser)
 
         self.setLayout(layout)
-        self.resize(1000, 400)
 
-        self.browser.loadFinished.connect(self.on_load_finished)
-    
-    def on_load_finished(self, ok):
-        if ok:
-            print("Page loaded successfully")
-        else:
-            print("Failed to load page")
+        # Initialize worker thread
+        self.init_worker_thread()
 
+        #resize dialog
+        self.resize(parent.size() if parent else QSize(800, 600))
+
+    def init_worker_thread(self):
+        #Initialize worker thread and connections
+        self.worker_thread = QThread()
+        self.dash_worker = DashWorker(plot_interactive_table_dash("algorithms/simulation_results/final_simulation(Lucinda).json"))
         
+        # Move worker to thread
+        self.dash_worker.moveToThread(self.worker_thread)
         
+        # Connect signals and slots
+        self.worker_thread.started.connect(self.dash_worker.run_server)
+        self.dash_worker.finished.connect(self.worker_thread.quit)
+        self.dash_worker.finished.connect(self.dash_worker.deleteLater)
+        self.worker_thread.finished.connect(self.worker_thread.deleteLater)
+        self.dash_worker.progress.connect(self.update_status)
+        
+        # Start thread
+        self.worker_thread.start()
+
+    def update_status(self, status):
+        #Update window title with status
+         self.setWindowTitle("Simulation Data Results")
+
+    def closeEvent(self, event):
+        #Handle window closing
+        if hasattr(self, 'dash_worker'):
+            self.dash_worker.shutdown_server()
+        event.accept()  
