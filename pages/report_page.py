@@ -1,14 +1,15 @@
 from PyQt6.QtCore import *
 from PyQt6.QtWidgets import *
 from PyQt6.QtWebEngineWidgets import *
-from scripts.visualize.dash_worker import *
 from scripts.visualize.plot_table import *
+from scripts.visualize.dash_worker import *
 
 class ReportPage(QDialog):
     def __init__(self, parent=None):
         super().__init__(parent)
 
         #Set up the report page
+        self.setWindowTitle("Simulation Data Results")
         self.browser = QWebEngineView()
         self.simulation_title = QLabel("Simulation Data Results")
         self.simulation_title.setObjectName('simulation_title')
@@ -29,7 +30,7 @@ class ReportPage(QDialog):
     def init_worker_thread(self):
         #Initialize worker thread and connections
         self.worker_thread = QThread()
-        self.dash_worker = DashWorker(plot_interactive_table_dash("algorithms/simulation_results/final_simulation(Lucinda).json"))
+        self.dash_worker = DashWorker(plot_interactive_table_dash("algorithms/simulation_results/final_simulation(Lucinda).json"), 8050)
         
         # Move worker to thread
         self.dash_worker.moveToThread(self.worker_thread)

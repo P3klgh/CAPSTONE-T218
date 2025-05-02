@@ -7,19 +7,20 @@ class DashWorker(QObject):
     finished = pyqtSignal()
     progress = pyqtSignal(str)
 
-    def __init__(self, application):
+    def __init__(self, application, port):
         super().__init__()
         self.app = None
         self.server_thread = None
         self.running = False
         self.application = application
+        self.port = port
     
-    def run_server(self):
+    def run_server(self): 
         self.app = self.application
         self.server_thread = threading.Thread(target=lambda: self.app.run(
             debug=False,
             host='127.0.0.1',
-            port=8050,
+            port=self.port,
             use_reloader=False
         ))
         self.server_thread.daemon = True
@@ -27,7 +28,7 @@ class DashWorker(QObject):
         self.progress.emit("Server started")
         self.running = True
 
-    def shutdown_server(self):
+    def deleteLater(self):
         if self.running and self.server_thread:
             self.app.server.shutdown_server()
             self.server_thread.join(timeout=5)

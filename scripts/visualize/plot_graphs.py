@@ -8,7 +8,7 @@ def resolve_path(*relative_parts):
     return os.path.abspath(os.path.join(base_dir, "..", "..", *relative_parts))
 
 
-def plot_energy_velocity_toggle(sim_path: str, output_dir: str = "visual_output"):
+def plot_energy_velocity_toggle(sim_path: str, num, output_dir: str = "visual_output"):
     sim_path = resolve_path(sim_path)
     output_dir = resolve_path(output_dir)
 
@@ -56,12 +56,13 @@ def plot_energy_velocity_toggle(sim_path: str, output_dir: str = "visual_output"
                     dict(label="Velocity", method="update", args=[{"visible": [False, True]}]),
                     dict(label="Both", method="update", args=[{"visible": [True, True]}])
                 ],
+                active=num,
                 showactive=True,
                 x=0.0,
                 xanchor="left",
                 y=1.15,
                 yanchor="top"
-            )
+            ),
         ]
     )
 
@@ -71,9 +72,9 @@ def plot_energy_velocity_toggle(sim_path: str, output_dir: str = "visual_output"
     fig.write_html(save_path)
     print(f"✅ 토글 가능한 그래프 저장 완료: {save_path}")
 
-    webbrowser.open("file://" + save_path)
+    return save_path
 
 
-# ✅ 단독 실행
-if __name__ == "__main__":
-    plot_energy_velocity_toggle("algorithms/simulation_results/final_simulation(Lucinda).json")
+# # ✅ 단독 실행
+# if __name__ == "__main__":
+#     plot_energy_velocity_toggle("algorithms/simulation_results/final_simulation(Lucinda).json")
