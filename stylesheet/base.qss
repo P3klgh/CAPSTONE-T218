@@ -1,0 +1,37 @@
+/* 기본 버튼 스타일 */
+QPushButton {
+    background-color: #555555;
+    color: #e0e0e0;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+QPushButton:hover {
+    background-color: #1abc9c;
+    color: #ffffff;
+}
+
+/* 입력 필드 */
+QLineEdit {
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 10px;         /* padding 줄임 */
+    font-size: 15px;           /* 살짝 키움 */
+    font-weight: 400;          /* 가독성 확보 */
+    color: #333;               /* 입력 텍스트 색 */
+}
+
+/* placeholder를 선명하게 */
+QLineEdit:placeholder {
+    color: #888;
+    font-style: italic;
+}
+
+/* 기본 라벨 */
+QLabel {
+    font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+}

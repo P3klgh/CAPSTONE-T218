@@ -1,0 +1,31 @@
+QPushButton#run_btn {
+    background-color: #1abc9c;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 10px 25px;
+}
+QPushButton#run_btn:hover {
+    background-color: #16a085;
+}
+
+
+QLineEdit#small_input2 {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #bbb;
+}
+
+
+QGroupBox {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top center;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0 3px;
+}

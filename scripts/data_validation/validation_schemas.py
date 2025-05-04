@@ -1,0 +1,68 @@
+# scripts/data_validation/validation_schemas.py
+
+# ─── Train Schema (기존 그대로) ─────────────────────────────
+train_schema = {
+    "type": "object",
+    "required": [
+        "mass_full_bin", "mass_empty_bin", "num_full_bins", "num_empty_bins",
+        "mass_locomotive", "mass_brakevan", "has_brakevan",
+        "rolling_resistance_full", "rolling_resistance_empty",
+        "rolling_resistance_locomotive_drive", "rolling_resistance_brakevan",
+        "curve_resistance_factor",
+        "tractive_effort_curve"
+    ],
+    "properties": {
+        "mass_full_bin": {"type": "number"},
+        "mass_empty_bin": {"type": "number"},
+        "num_full_bins": {"type": "integer"},
+        "num_empty_bins": {"type": "integer"},
+        "mass_locomotive": {"type": "number"},
+        "mass_brakevan": {"type": "number"},
+        "has_brakevan": {"type": "integer", "enum": [0, 1]},
+
+        "rolling_resistance_full": {"type": "number"},
+        "rolling_resistance_empty": {"type": "number"},
+        "rolling_resistance_locomotive_drive": {"type": "number"},
+        "rolling_resistance_brakevan": {"type": "number"},
+
+        "curve_resistance_factor": {"type": "number"},
+
+        "tractive_effort_curve": {
+            "type": "object",
+            "patternProperties": {
+                "^\\d+$": {"type": "number"}
+            }
+        }
+    },
+    "additionalProperties": False
+}
+
+
+# ─── New: Track Segment Schema (하나의 세그먼트 기준) ─────────────
+track_segment_schema = {
+    "type": "object",
+    "required": [
+        "Radius", "CurveID", "X_Center", "Y_Center",
+        "Min_Slope", "Max_Slope", "Avg_Slope",
+        "Length", "Z_Min", "Z_Max", "Z_Mean",
+        "XStart", "YStart", "XFinish", "YFinish"
+    ],
+    "properties": {
+        "Radius": {"type": "number"},
+        "CurveID": {"type": "number"},
+        "X_Center": {"type": "number"},
+        "Y_Center": {"type": "number"},
+        "Min_Slope": {"type": "number"},
+        "Max_Slope": {"type": "number"},
+        "Avg_Slope": {"type": "number"},
+        "Length": {"type": "number"},
+        "Z_Min": {"type": "number"},
+        "Z_Max": {"type": "number"},
+        "Z_Mean": {"type": "number"},
+        "XStart": {"type": "number"},
+        "YStart": {"type": "number"},
+        "XFinish": {"type": "number"},
+        "YFinish": {"type": "number"}
+    },
+    "additionalProperties": True
+}

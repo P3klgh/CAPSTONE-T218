@@ -1,0 +1,50 @@
+/* 선택 탭 버튼 */
+QPushButton#createprojectoption,
+QPushButton#openprojectoption {
+    background-color: #555;
+    color: #e0e0e0;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 10px 25px;
+    margin: 5px 10px;
+    border: none;
+}
+
+QPushButton#createprojectoption:hover,
+QPushButton#openprojectoption:hover {
+    background-color: #1abc9c;
+    color: white;
+}
+
+QPushButton#createprojectoption[active="true"],
+QPushButton#openprojectoption[active="true"] {
+    background-color: #1abc9c;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #148f77;
+}
+
+/* Create 버튼 */
+QPushButton#create {
+    background-color: #555;
+    color: white;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 6px;
+    min-width: 100px;
+    margin-right: 20px;
+}
+QPushButton#create:hover {
+    background-color: #1abc9c;
+    color: white;
+}
+
+/* 입력창 */
+QLineEdit#nameinput {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 10px;
+    font-size: 13px;
+    background-color: #fff;
+}
