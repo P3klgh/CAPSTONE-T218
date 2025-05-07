@@ -1,8 +1,12 @@
-# scripts/data_validation/validators.py
-
 import json
-from jsonschema import validate, ValidationError
+import fastjsonschema
+from fastjsonschema import JsonSchemaException
+from concurrent.futures import ThreadPoolExecutor
 from .validation_schemas import train_schema, track_segment_schema
+
+# 🔧 스키마 컴파일
+validate_train_schema = fastjsonschema.compile(train_schema)
+validate_track_segment_schema = fastjsonschema.compile(track_segment_schema)
 
 # 📌 필드별 설명 매핑
 TRAIN_FIELD_DESCRIPTIONS = {
@@ -38,61 +42,43 @@ TRACK_FIELD_DESCRIPTIONS = {
     "Y_Center": "Curve center Y (optional)"
 }
 
-# 🔧 메시지 포매터 함수
-def format_error_message(error: ValidationError, prefix: str, descriptions: dict) -> str:
+# 🔧 간단한 에러 메시지 생성기
+def format_error_message(error_msg: str, prefix: str, descriptions: dict) -> str:
+    return f"{prefix} {error_msg}"
 
-    messages = []
-
-    if error.context:
-        for sub_error in error.context:
-            messages.append(format_error_message(sub_error, prefix, descriptions))
-        return "\n".join(messages)
-
-    if error.validator == 'required':
-        missing_fields = [
-            field for field in error.validator_value
-            if field not in error.instance
-        ]
-        msg_lines = [f"{prefix} missing required fields:"]
-        for f in missing_fields:
-            desc = descriptions.get(f, "No description available")
-            msg_lines.append(f"- {f}: {desc}")
-        return "\n".join(msg_lines)
-
-    elif error.validator == 'pattern':
-        field = error.path[-1] if error.path else "Unknown field"
-        expected = error.schema.get("pattern", "N/A")
-        actual = error.instance
-        desc = descriptions.get(field, "No description available")
-        return (f"{prefix} invalid format in field '{field}': {desc}\n"
-                f"- Expected pattern: {expected}\n"
-                f"- Provided: {actual}")
-
-    return f"{prefix} {error.message}"
-
-# ✅ 검증 함수
+# ✅ Train JSON 검증 함수
 def validate_train_json(file_path):
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             data = json.load(f)
-        validate(instance=data, schema=train_schema)
+        validate_train_schema(data)
         return True, None
     except (json.JSONDecodeError, FileNotFoundError) as e:
         return False, f"File error: {str(e)}"
-    except ValidationError as ve:
-        return False, format_error_message(ve, "Train data validation failed:", TRAIN_FIELD_DESCRIPTIONS)
+    except JsonSchemaException as ve:
+        return False, format_error_message(ve.message, "Train data validation failed:", TRAIN_FIELD_DESCRIPTIONS)
 
+# 🔄 병렬 처리용 세그먼트 검증 함수
+def validate_segment_pair(pair):
+    key, segment = pair
+    try:
+        validate_track_segment_schema(segment)
+        return None
+    except JsonSchemaException as ve:
+        return f"Track segment {key} validation failed: {ve.message}"
+
+# ✅ Track JSON 검증 (병렬 버전)
 def validate_track_json(file_path):
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             data = json.load(f)
 
-        for key, segment in data.items():
-            try:
-                validate(instance=segment, schema=track_segment_schema)
-            except ValidationError as ve:
-                return False, format_error_message(ve, f"Track segment {key} validation failed:", TRACK_FIELD_DESCRIPTIONS)
+        with ThreadPoolExecutor(max_workers=8) as executor:
+            results = list(executor.map(validate_segment_pair, data.items()))
 
+        errors = [msg for msg in results if msg]
+        if errors:
+            return False, "\n".join(errors)
         return True, None
 
     except (json.JSONDecodeError, FileNotFoundError) as e:
