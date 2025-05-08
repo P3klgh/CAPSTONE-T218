@@ -47,22 +47,23 @@ track_segment_schema = {
         "Length", "Z_Min", "Z_Max", "Z_Mean",
         "XStart", "YStart", "XFinish", "YFinish"
     ],
-    "properties": {
-        "Radius": {"type": "number"},
-        "CurveID": {"type": "number"},
-        "X_Center": {"type": "number"},
-        "Y_Center": {"type": "number"},
-        "Min_Slope": {"type": "number"},
-        "Max_Slope": {"type": "number"},
-        "Avg_Slope": {"type": "number"},
-        "Length": {"type": "number"},
-        "Z_Min": {"type": "number"},
-        "Z_Max": {"type": "number"},
-        "Z_Mean": {"type": "number"},
-        "XStart": {"type": "number"},
-        "YStart": {"type": "number"},
-        "XFinish": {"type": "number"},
-        "YFinish": {"type": "number"}
+        "properties": {
+        "Radius": {"type": ["number", "null"]},
+        "CurveID": {"type": ["number", "null"]},
+        "X_Center": {"type": ["number", "null"]},
+        "Y_Center": {"type": ["number", "null"]},
+        "Min_Slope": {"type": ["number", "null"]},
+        "Max_Slope": {"type": ["number", "null"]},
+        "Avg_Slope": {"type": ["number", "null"]},
+        "Length": {"type": ["number", "null"]},
+        "Z_Min": {"type": ["number", "null"]},
+        "Z_Max": {"type": ["number", "null"]},
+        "Z_Mean": {"type": ["number", "null"]},
+        "XStart": {"type": ["number", "null"]},
+        "YStart": {"type": ["number", "null"]},
+        "XFinish": {"type": ["number", "null"]},
+        "YFinish": {"type": ["number", "null"]}
     },
+
     "additionalProperties": True
 }
