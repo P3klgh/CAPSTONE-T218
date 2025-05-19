@@ -4,7 +4,28 @@ from PyQt6.QtWidgets import (
 )
 from PyQt6.QtGui import QPixmap
 import os
+import json
+
 from scripts.visualize.track_mapper import generate_track_plot  # ✅ 새 matplotlib 기반 함수 사용
+
+
+# ✅ train_spec.json 로드 함수
+def load_train_spec(filepath="given_data/train_spec.json"):
+    with open(filepath, "r") as f:
+        data = json.load(f)
+
+    full_bins = data["num_full_bins"]
+    empty_bins = data["num_empty_bins"]
+
+    total_mass = (
+        data["mass_full_bin"] * full_bins +
+        data["mass_empty_bin"] * empty_bins +
+        data["mass_locomotive"] +
+        (data["mass_brakevan"] if data["has_brakevan"] else 0)
+    )
+
+    return total_mass, full_bins, empty_bins
+
 
 class ConfigurationPage(QWidget):
     def __init__(self, project_name, user_name, run_button, parent=None):
@@ -33,6 +54,9 @@ class ConfigurationPage(QWidget):
         outer_layout.addLayout(button_layout)
 
         self.setLayout(outer_layout)
+
+        # ✅ Train Summary 라벨 초기화
+        self.update_train_summary()
 
     def create_train_summary_box(self):
         group = QGroupBox("Train Summary")
@@ -100,3 +124,13 @@ class ConfigurationPage(QWidget):
 
         group.setLayout(layout)
         return group
+
+    # ✅ Train Summary 라벨 업데이트 함수
+    def update_train_summary(self):
+        try:
+            total_mass, full_bins, empty_bins = load_train_spec()
+            self.mass_label.setText(f"Total Mass: {total_mass:,} kg")
+            self.full_bin_label.setText(f"Full Bins: {full_bins}")
+            self.empty_bin_label.setText(f"Empty Bins: {empty_bins}")
+        except Exception as e:
+            print("[ERROR] Failed to load train_spec.json:", e)

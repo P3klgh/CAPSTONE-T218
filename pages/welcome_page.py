@@ -1,14 +1,45 @@
-import qtawesome as qta
 from PyQt6.QtWidgets import (
     QWidget, QVBoxLayout, QHBoxLayout, QLineEdit, QLabel,
     QPushButton, QStackedWidget, QFileDialog, QFrame, QMessageBox,
-    QDialog, QDialogButtonBox
+    QDialog, QDialogButtonBox, QTextEdit
 )
-from PyQt6.QtGui import QPixmap
-from PyQt6.QtCore import Qt
+from PyQt6.QtGui import (
+    QPixmap, QSyntaxHighlighter, QTextCharFormat, QColor
+)
+import qtawesome as qta
+import json
+from PyQt6.QtCore import Qt, QRegularExpression
 from pages.configuration_page import ConfigurationPage
 from pages.simulation_dashboard import SimulationDashboard
 from scripts.data_validation.validators import validate_train_json, validate_track_json
+
+
+class JSONHighlighter(QSyntaxHighlighter):
+    def __init__(self, parent):
+        super().__init__(parent)
+
+        self.string_format = QTextCharFormat()
+        self.string_format.setForeground(QColor("#00aa00"))
+
+        self.number_format = QTextCharFormat()
+        self.number_format.setForeground(QColor("#1e90ff"))
+
+        self.key_format = QTextCharFormat()
+        self.key_format.setForeground(QColor("#bb86fc"))
+
+        self.rules = [
+            (QRegularExpression(r'"[^"]*"\s*:'), self.key_format),
+            (QRegularExpression(r'"[^"]*"'), self.string_format),
+            (QRegularExpression(r'\b\d+(\.\d+)?\b'), self.number_format)
+        ]
+
+    def highlightBlock(self, text):
+        for pattern, fmt in self.rules:
+            it = pattern.globalMatch(text)
+            while it.hasNext():
+                match = it.next()
+                self.setFormat(match.capturedStart(), match.capturedLength(), fmt)
+
 
 class WelcomePage(QWidget):
     def __init__(self, parent=QWidget):
@@ -82,26 +113,28 @@ class WelcomePage(QWidget):
         self.user_name_error = self._error_label('user name is empty')
         layout.addWidget(self.user_name_error)
 
+        # Track Section
         layout.addWidget(self._label('Track Data:', 'tracklabel'))
         self.track_path_input = QLineEdit()
         self.track_path_input.setPlaceholderText("Choose track data file")
         track_browse = QPushButton("Browse")
         track_browse.clicked.connect(self.browse_track_file)
         track_format = QPushButton("Track Format")
-        track_format.clicked.connect(lambda: self.show_format_dialog("assets/track_format.png", "Track Format"))
+        track_format.clicked.connect(lambda: self.show_format_dialog("Track Format", "track"))
         track_layout = QHBoxLayout()
         track_layout.addWidget(self.track_path_input)
         track_layout.addWidget(track_browse)
         track_layout.addWidget(track_format)
         layout.addLayout(track_layout)
 
+        # Train Section
         layout.addWidget(self._label('Train Data:', 'trainlabel'))
         self.train_path_input = QLineEdit()
         self.train_path_input.setPlaceholderText("Choose train data file")
         train_browse = QPushButton("Browse")
         train_browse.clicked.connect(self.browse_train_file)
         train_format = QPushButton("Train Format")
-        train_format.clicked.connect(lambda: self.show_format_dialog("assets/train_format.png", "Train Format"))
+        train_format.clicked.connect(lambda: self.show_format_dialog("Train Format", "train"))
         train_layout = QHBoxLayout()
         train_layout.addWidget(self.train_path_input)
         train_layout.addWidget(train_browse)
@@ -111,19 +144,127 @@ class WelcomePage(QWidget):
         frame.setLayout(layout)
         return frame
 
-    def show_format_dialog(self, image_path, title):
+    def show_format_dialog(self, title, format_type):
         dialog = QDialog(self)
         dialog.setWindowTitle(title)
-        layout = QVBoxLayout()
-        pixmap = QPixmap(image_path)
-        label = QLabel()
-        label.setPixmap(pixmap)
-        label.setScaledContents(True)
-        layout.addWidget(label)
+        dialog.setMinimumSize(700, 600)
 
-        buttons = QDialogButtonBox(QDialogButtonBox.StandardButton.Ok)
-        buttons.accepted.connect(dialog.accept)
-        layout.addWidget(buttons)
+        layout = QVBoxLayout()
+        if format_type == "track":
+            description_text = (
+                "📘 Track JSON Format\n"
+                "• Radius: Radius of the curve segment (in meters)\n"
+                "• CurveID: Identifier for the curve segment\n"
+                "• Z_Min: Minimum elevation at the segment's start (in meters)\n"
+                "• Z_Max: Maximum elevation at the segment's end (in meters)\n"
+                "• Z_Mean: Average elevation over the segment (in meters)\n"
+                "• Avg_Slope: Average gradient of the segment\n"
+                "• Min_Slope / Max_Slope: Minimum and maximum slope values\n"
+                "• Length: Length of the track segment (in meters)\n"
+                "• XStart / YStart: Starting coordinates (e.g. UTM)\n"
+                "• XFinish / YFinish: Ending coordinates (e.g. UTM)\n"
+                "• X_Center / Y_Center: Center point of the curve"
+            )
+
+            example_data = {
+                "0.0": {
+                    "Radius": 112.045,
+                    "CurveID": 1720172,
+                    "Z_Min": 25.87,
+                    "Z_Max": 25.95,
+                    "Z_Mean": 25.91,
+                    "Min_Slope": 0.12,
+                    "Max_Slope": 0.45,
+                    "Avg_Slope": 0.30,
+                    "Length": 526.08,
+                    "XStart": 732213,
+                    "YStart": 7609892,
+                    "XFinish": 732219,
+                    "YFinish": 7609868,
+                    "X_Center": 732425.3,
+                    "Y_Center": 7609523.2
+                }
+            }
+
+            default_filename = "track_example.json"
+        elif format_type == "train":
+            description_text = (
+                "📘 Train JSON Format\n"
+                "• mass_full_bin: Mass of one fully loaded bin (in kg)\n"
+                "• mass_empty_bin: Mass of one empty bin (in kg)\n"
+                "• num_full_bins: Number of fully loaded bins\n"
+                "• num_empty_bins: Number of empty bins\n"
+                "• mass_locomotive: Mass of the locomotive (in kg)\n"
+                "• mass_brakevan: Mass of the brake van (in kg)\n"
+                "• has_brakevan: Whether a brake van is included (1 = Yes, 0 = No)\n"
+                "• rolling_resistance_full: Rolling resistance of a full bin (N/ton)\n"
+                "• rolling_resistance_empty: Rolling resistance of an empty bin (N/ton)\n"
+                "• rolling_resistance_locomotive_drive: Rolling resistance of the locomotive (N)\n"
+                "• rolling_resistance_brakevan: Rolling resistance of the brake van (N)\n"
+                "• curve_resistance_factor: Resistance coefficient for curves\n"
+                "• tractive_effort_curve: Dictionary mapping speed (km/h) to tractive effort (N)"
+            )
+
+            example_data = {
+                "mass_full_bin": 7400,
+                "mass_empty_bin": 1280,
+                "num_full_bins": 30,
+                "num_empty_bins": 5,
+                "mass_locomotive": 38000,
+                "mass_brakevan": 29000,
+                "has_brakevan": 1,
+                "rolling_resistance_full": 10.6,
+                "rolling_resistance_empty": 13.3,
+                "rolling_resistance_locomotive_drive": 184,
+                "rolling_resistance_brakevan": 15,
+                "curve_resistance_factor": 2628,
+                "tractive_effort_curve": {
+                    "0": 188.7,
+                    "10": 155,
+                    "20": 120
+                }
+            }
+
+            default_filename = "train_example.json"
+
+        description_label = QLabel(description_text)
+        description_label.setWordWrap(True)
+        layout.addWidget(description_label)
+
+        # JSON 예시
+        json_view = QTextEdit()
+        json_view.setPlainText(json.dumps(example_data, indent=4))
+        json_view.setReadOnly(True)
+        json_view.setFixedHeight(300)
+
+        # ✅ 폰트 스타일 지정: Monospace
+        font = json_view.font()
+        font.setFamily("Courier New")
+        font.setPointSize(10)
+        json_view.setFont(font)
+
+        # ✅ 하이라이터 적용
+        JSONHighlighter(json_view.document())
+
+        layout.addWidget(json_view)
+
+        # 버튼
+        download_btn = QPushButton("⬇ Save Example")
+        close_btn = QPushButton("Close")
+
+        def save_json():
+            path, _ = QFileDialog.getSaveFileName(dialog, "Save JSON", default_filename, "JSON Files (*.json)")
+            if path:
+                with open(path, 'w') as f:
+                    json.dump(example_data, f, indent=4)
+
+        download_btn.clicked.connect(save_json)
+        close_btn.clicked.connect(dialog.accept)
+
+        btn_layout = QHBoxLayout()
+        btn_layout.addWidget(download_btn)
+        btn_layout.addWidget(close_btn)
+        layout.addLayout(btn_layout)
 
         dialog.setLayout(layout)
         dialog.exec()
@@ -188,7 +329,8 @@ class WelcomePage(QWidget):
         self.stacked_widget.setCurrentIndex(3)
 
     def browse_file(self):
-        file_name, _ = QFileDialog.getOpenFileName(self, "Open Project", "", "Project Files (*.json *.xml);;All Files (*)")
+        file_name, _ = QFileDialog.getOpenFileName(self, "Open Project", "",
+                                                   "Project Files (*.json *.xml);;All Files (*)")
         if file_name:
             self.project_path_input.setText(file_name.split('/')[-1])
 

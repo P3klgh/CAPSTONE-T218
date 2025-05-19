@@ -2,7 +2,7 @@
   "mass_full_bin": 7400,
   "mass_empty_bin": 1280,
   "num_full_bins": 30,
-  "num_empty_bins": 5,
+  "num_empty_bins": 10,
   "mass_locomotive": 38000,
   "mass_brakevan": 29000,
   "has_brakevan": 1,
