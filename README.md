@@ -175,7 +175,7 @@ python -m pytest tests/
 
 ## License
 
-[Add your license information here]
+MIT License
 
 ## Authors
 
