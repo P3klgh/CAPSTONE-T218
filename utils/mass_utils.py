@@ -2,10 +2,8 @@
 
 def compute_total_train_mass(spec: dict) -> float:
     """
-    전체 기차 질량을 계산합니다.
-
     Parameters:
-        spec (dict): train_spec.json에서 불러온 사양 정보
+        spec (dict): train_spec.json
 
     Returns:
         float: 전체 질량 (kg)

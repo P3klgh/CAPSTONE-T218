@@ -1,0 +1,19 @@
+{
+    "0.0": {
+        "Radius": 112.045,
+        "CurveID": 1720172,
+        "Z_Min": 25.87,
+        "Z_Max": 25.95,
+        "Z_Mean": 25.91,
+        "Min_Slope": 0.12,
+        "Max_Slope": 0.45,
+        "Avg_Slope": 0.3,
+        "Length": 526.08,
+        "XStart": 732213,
+        "YStart": 7609892,
+        "XFinish": 732219,
+        "YFinish": 7609868,
+        "X_Center": 732425.3,
+        "Y_Center": 7609523.2
+    }
+}
